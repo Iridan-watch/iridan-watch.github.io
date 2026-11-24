@@ -1,30 +1,40 @@
 {
- "updated_at": "2026-11-24 10:24",
+ "updated_at": "2026-11-24 12:41",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 328,
- "comments_collected": 7619,
- "comments_checked": 7619,
+ "videos_tracked": 371,
+ "comments_collected": 8194,
+ "comments_checked": 8194,
  "themes_7d": [
   {
-   "theme": "팬덤 비하",
-   "count": 12,
-   "indirect": 8
+   "theme": "라이브 논란",
+   "count": 17,
+   "indirect": 15
   },
   {
-   "theme": "라이브 논란",
-   "count": 12,
-   "indirect": 12
+   "theme": "팬덤 비하",
+   "count": 14,
+   "indirect": 9
   },
   {
    "theme": "노래 실력 부족",
-   "count": 10,
+   "count": 12,
    "indirect": 5
   },
   {
    "theme": "활동 방식 조롱",
+   "count": 8,
+   "indirect": 7
+  },
+  {
+   "theme": "원이 보컬",
+   "count": 8,
+   "indirect": 4
+  },
+  {
+   "theme": "인기 조롱",
    "count": 7,
-   "indirect": 6
+   "indirect": 7
   },
   {
    "theme": "성적 조롱",
@@ -32,9 +42,14 @@
    "indirect": 6
   },
   {
-   "theme": "원이 보컬",
+   "theme": "미나미 외 멤버 실력",
+   "count": 7,
+   "indirect": 7
+  },
+  {
+   "theme": "멤버 보컬 실력 부족",
    "count": 6,
-   "indirect": 4
+   "indirect": 5
   },
   {
    "theme": "리브 라이브 실력",
@@ -42,24 +57,9 @@
    "indirect": 4
   },
   {
-   "theme": "인기 조롱",
-   "count": 5,
-   "indirect": 5
-  },
-  {
    "theme": "원이 조롱",
    "count": 5,
    "indirect": 2
-  },
-  {
-   "theme": "미나미 외 멤버 실력",
-   "count": 5,
-   "indirect": 5
-  },
-  {
-   "theme": "멤버 보컬 실력 부족",
-   "count": 5,
-   "indirect": 4
   },
   {
    "theme": "원이 춤 실력",
@@ -69,24 +69,34 @@
  ],
  "themes_all": [
   {
-   "theme": "팬덤 비하",
-   "count": 12,
-   "indirect": 8
+   "theme": "라이브 논란",
+   "count": 17,
+   "indirect": 15
   },
   {
-   "theme": "라이브 논란",
-   "count": 12,
-   "indirect": 12
+   "theme": "팬덤 비하",
+   "count": 14,
+   "indirect": 9
   },
   {
    "theme": "노래 실력 부족",
-   "count": 10,
+   "count": 12,
    "indirect": 5
   },
   {
    "theme": "활동 방식 조롱",
+   "count": 8,
+   "indirect": 7
+  },
+  {
+   "theme": "원이 보컬",
+   "count": 8,
+   "indirect": 4
+  },
+  {
+   "theme": "인기 조롱",
    "count": 7,
-   "indirect": 6
+   "indirect": 7
   },
   {
    "theme": "성적 조롱",
@@ -94,9 +104,14 @@
    "indirect": 6
   },
   {
-   "theme": "원이 보컬",
+   "theme": "미나미 외 멤버 실력",
+   "count": 7,
+   "indirect": 7
+  },
+  {
+   "theme": "멤버 보컬 실력 부족",
    "count": 6,
-   "indirect": 4
+   "indirect": 5
   },
   {
    "theme": "리브 라이브 실력",
@@ -104,24 +119,9 @@
    "indirect": 4
   },
   {
-   "theme": "인기 조롱",
-   "count": 5,
-   "indirect": 5
-  },
-  {
    "theme": "원이 조롱",
    "count": 5,
    "indirect": 2
-  },
-  {
-   "theme": "미나미 외 멤버 실력",
-   "count": 5,
-   "indirect": 5
-  },
-  {
-   "theme": "멤버 보컬 실력 부족",
-   "count": 5,
-   "indirect": 4
   },
   {
    "theme": "원이 춤 실력",
@@ -203,6 +203,96 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg"
   },
   {
+   "id": "UgzJ7NNZ0NOIda9huUF4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 12:28",
+   "found": "2026-11-24 12:41",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "원이 보컬",
+   "implied": "원이는 라이브를 못해서 듣는 사람이 이명이 올 정도다",
+   "reason": "'라이브여신, 한국의 아델'이라 비꼬며 원이의 라이브가 듣기 괴롭다고 조롱한다.",
+   "text": "라이브여신,한국의 아델,원이아이가?ㅋㅋ원이 라이브듣고 이명왔단 사람많던데?을매나 잘부르면 듣는 사람이 이명이오노?ㅋㅋㅋ",
+   "video": "MMA에서  카리나 봐서 싱글벙글한 원이 리센느 aespa 에스파",
+   "channel": "DukCam",
+   "link": "https://www.youtube.com/watch?v=HSBKgX60qHE&lc=UgzJ7NNZ0NOIda9huUF4AaABAg"
+  },
+  {
+   "id": "UgzTwOaeCYyy7tzXTU94AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 12:04",
+   "found": "2026-11-24 12:41",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "노래 실력 부족",
+   "implied": "리센느는 아이돌 중 노래 실력이 가장 형편없다",
+   "reason": "근거 없이 그룹 노래 실력을 '가장 처참'하다고 단정하는 비하.",
+   "text": "아이돌 중에 노래 실력이 가장 처참합니다",
+   "video": "[헥스: 마녀왕국] 리센느의 With MV 비하인드 🪽",
+   "channel": "Disney Korea",
+   "link": "https://www.youtube.com/watch?v=2DN8WkTkQ3I&lc=UgzTwOaeCYyy7tzXTU94AaABAg"
+  },
+  {
+   "id": "UgyYDHoG5H-NQ1YCvpB4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 11:58",
+   "found": "2026-11-24 12:41",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "미나미 외 멤버 실력",
+   "implied": "미나미를 뺀 한국인 멤버들은 실력이 기대 이하라 실망스럽다",
+   "reason": "미나미를 에이스로 치켜세우고 나머지 한국 멤버들의 실력을 실망 그 자체라고 깎아내림.",
+   "text": "아이돌그룹들 별 관심은 없는데 놀면뭐하니에 미나미 나온거 보고,\r\n와 저그룹은 일본인 멤버가 저정도 실력과 한국노래 하는거면 다른 멤버는 최소 그 이상 하겠지라 생각했음, 그런데 그 일본인 멤버가 최고 에이스였고, 리센느 다른 한국멤버들은 실망 그자체ㅜ 씁쓸하다,",
+   "video": "[헥스: 마녀왕국] 리센느의 With MV 비하인드 🪽",
+   "channel": "Disney Korea",
+   "link": "https://www.youtube.com/watch?v=2DN8WkTkQ3I&lc=UgyYDHoG5H-NQ1YCvpB4AaABAg"
+  },
+  {
+   "id": "UgzikXugbGqhX_Ff14V4AaABAg.AdZVK5HiV2IAd_JHg_kD98",
+   "deleted": false,
+   "posted": "2026-11-24 10:44",
+   "found": "2026-11-24 12:41",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "라이브 논란 기정사실화",
+   "implied": "리센느의 노래 실력이 드러나 망신당하는 걸 보니 통쾌하다",
+   "reason": "실력 논란을 기정사실로 삼고 통쾌하다며 악플을 정당화하고 옹호하는 사람을 조롱합니다.",
+   "text": "@(계정) 난 통쾌한데.. 영상마지막에 나온글보고 기분상하셧남",
+   "video": "또 한번 민낯처럼 드러난 리센느의 노래 실력",
+   "channel": "르센니",
+   "link": "https://www.youtube.com/watch?v=F7kGM32MJlo&lc=UgzikXugbGqhX_Ff14V4AaABAg.AdZVK5HiV2IAd_JHg_kD98"
+  },
+  {
+   "id": "Ugwm4dGHxiF1yEMoev94AaABAg.AdZ1zZo3TQ6Ad_IcALo4SM",
+   "deleted": false,
+   "posted": "2026-11-24 10:38",
+   "found": "2026-11-24 12:41",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "노래 실력 부족",
+   "implied": "리센느는 그 영상에서도 박자를 틀릴 만큼 실력이 부족하다",
+   "reason": "박자를 심하게 틀린다고 단정하며 비웃는 실력 비하입니다.",
+   "text": "ㄹㅇㅋㅋㅋㅋㅋㅋㅋ심지어 저것도 박자도 쳐틀림",
+   "video": "아미 걸그룹 리센느",
+   "channel": "알럽셀럽",
+   "link": "https://www.youtube.com/watch?v=eNkFPBrG6js&lc=Ugwm4dGHxiF1yEMoev94AaABAg.AdZ1zZo3TQ6Ad_IcALo4SM"
+  },
+  {
    "id": "UgzTD8mIUrfC-sEV4gF4AaABAg",
    "deleted": false,
    "posted": "2026-11-24 10:19",
@@ -222,7 +312,7 @@
   },
   {
    "id": "UgziUANqzZwBgBVl2BB4AaABAg.AdZVN55ollGAd_5-7mSCNw",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-24 08:39",
    "found": "2026-11-24 09:15",
    "confidence": "확실",
@@ -456,7 +546,7 @@
   },
   {
    "id": "UgziUANqzZwBgBVl2BB4AaABAg",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-24 03:10",
    "found": "2026-11-24 09:15",
    "confidence": "확실",
@@ -923,6 +1013,60 @@
    "link": "https://www.youtube.com/watch?v=DSpZNwMQrfI&lc=UgwSHf-yVoFlSuqhkHt4AaABAg"
   },
   {
+   "id": "UgyZ_xZW8W6RGRYyLld4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 11:04",
+   "found": "2026-11-24 12:41",
+   "confidence": "확실",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "멤버",
+   "theme": "원이 보컬",
+   "implied": "원이는 노래 실력이 부족하니 연습해야 한다",
+   "reason": "구체적인 근거나 개선 방향 없이 원이의 노래 실력이 부족하다고 단정하는 말투다.",
+   "text": "노래 연습이나 좀 하자 원이야...",
+   "video": "크리스마스엔 센둥이들 애교ㅋㅋ #리센느",
+   "channel": "리마인드",
+   "link": "https://www.youtube.com/watch?v=MfbSJebmPeM&lc=UgyZ_xZW8W6RGRYyLld4AaABAg"
+  },
+  {
+   "id": "UgwUkufH4o82n_qMYe94AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 10:41",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "허위사실/루머",
+   "target": "멤버",
+   "theme": "라이브 논란",
+   "implied": "미나미가 일본 돔 무대에서 립싱크를 했다",
+   "reason": "꿈의 무대에서 립싱크를 했다고 조롱하며 라이브 실력 의혹을 퍼뜨린다.",
+   "text": "꿈꾸던 무대인데 립싱크냐ㅋㅋㅋㅋㅋㅋㅋ",
+   "video": "리센느 미나미, 아파서 쉬고 닷새 뒤 일본 돔에서 들은 말 #리센느 #미나미 #MAMA",
+   "channel": "스타원리",
+   "link": "https://www.youtube.com/watch?v=EdO1uP_iKHA&lc=UgwUkufH4o82n_qMYe94AaABAg"
+  },
+  {
+   "id": "UgwLU6djRNlxtT_XiIh4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 10:41",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "라이브 논란",
+   "implied": "리센느 라이브는 보정과 AR 때문에 실제 실력이 아니다",
+   "reason": "라이브가 보정과 AR로 포장됐다고 말해 실력을 깎아내립니다.",
+   "text": "누가보면 쌩라이븐줄 알것네 앵콜 빼고는 보정 ar 다들어간다는거만 알아둬라",
+   "video": "[리센느]잠 많이 자던 시절 라이브 실력 리센느 Runaway",
+   "channel": "리마인&쎈둥이",
+   "link": "https://www.youtube.com/watch?v=dI6-LQFLKOg&lc=UgwLU6djRNlxtT_XiIh4AaABAg"
+  },
+  {
    "id": "UgyoL-S8-wuCGytUnYl4AaABAg.AdYbXF23HHFAdZvKhCG84S",
    "deleted": false,
    "posted": "2026-11-24 07:06",
@@ -1283,6 +1427,222 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg.AdYVpCvniBQAdYZO-9dGPl"
   },
   {
+   "id": "UgxNPHmqR17Oyg3P9L54AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 12:39",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "그룹 전체",
+   "theme": "활동 방식 조롱",
+   "implied": "리센느는 음악방송에 나가지 않고 기획사가 돈만 아끼며 순위를 얻는다",
+   "reason": "응원하는 말투로 비꼬면서 음방 없는 1위를 기획사의 돈벌이 수법으로 깎아내린다.",
+   "text": "기획사가 돈 버는 법을 잘아네!! 화이팅",
+   "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
+   "channel": "YTN star",
+   "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=UgxNPHmqR17Oyg3P9L54AaABAg"
+  },
+  {
+   "id": "Ugy2pmq1x67R7NT1-Jl4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 12:39",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "그룹 전체",
+   "theme": "라이브 논란",
+   "implied": "리센느는 라이브로 소화할 수 없는 곡을 냈고 라이브가 불가능하다",
+   "reason": "아쉬움을 표하는 형식이지만 '라이브 불가'를 단정해 라이브 논란을 기정사실화하는 것으로 읽힌다. 곡 난이도에 대한 의견일 수도 있어 사람 확인이 필요하다.",
+   "text": "이 노랜 라이브로 할 수 없음. ㅠㅠ",
+   "video": "리브도 한숨 쉬는 어려운 With 녹음 #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
+   "channel": "뮤드숏",
+   "link": "https://www.youtube.com/watch?v=JQvzEC0sRg0&lc=Ugy2pmq1x67R7NT1-Jl4AaABAg"
+  },
+  {
+   "id": "UgxoEYo_XDlk-jqu-Ox4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 12:04",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "인기 조롱",
+   "implied": "음악방송 없이 1위라며 '국민 걸그룹'이라고 반어적으로 비꼰다",
+   "reason": "과장된 '캬~~' 말투로 국민 걸그룹·1위를 비꼬는 것으로 읽혀 사람 확인 필요.",
+   "text": "뉴스에 국민 걸그룹 리센느 캬~~활동 마무리후1위 캬~~5관 왕 이야~~YTN 뉴스 잘하네 국민 뉴스체널 ㅎㅎㅎㅎ",
+   "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
+   "channel": "YTN star",
+   "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=UgxoEYo_XDlk-jqu-Ox4AaABAg"
+  },
+  {
+   "id": "Ugy32vazSpnjPjHKnuR4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 11:55",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "미나미 외 멤버 실력",
+   "implied": "리브와 미나미만 노래를 받쳐 줬고 나머지 멤버는 부족하다",
+   "reason": "리브와 미나미를 치켜세우며 나머지 멤버의 실력이 부족하다고 깎아내림.",
+   "text": "이런 노래를 미나미 마저 빠지고 마지막에 리브혼자 받쳤으니... 리브랑 미나미는 진짜 보물이다",
+   "video": "RESCENE (리센느) 'With' Recording Behind",
+   "channel": "RESCENE",
+   "link": "https://www.youtube.com/watch?v=iocqXX77eb0&lc=Ugy32vazSpnjPjHKnuR4AaABAg"
+  },
+  {
+   "id": "UgyTjuBxyYv6gTbgiup4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 11:32",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "그룹 전체",
+   "theme": "라이브 논란",
+   "implied": "이번 곡은 일부 멤버가 라이브로 소화하지 못했다",
+   "reason": "바람 형식이지만 '전원이 라이브 소화 가능한'이라는 말로 일부 멤버가 라이브를 못 한다고 전제함.",
+   "text": "어려운거는 다들 알았을듯 싶은데... 개인적으로 바라는건  전원이 라이브 소화 가능한 노래로 다음에 컴백했으면 좋겠음.",
+   "video": "쪼개보니 극악 난이도였던 리센느 WITH 녹음 현장 #리센느 #RESCENE",
+   "channel": "핫큐",
+   "link": "https://www.youtube.com/watch?v=CQsYuNHQEl8&lc=UgyTjuBxyYv6gTbgiup4AaABAg"
+  },
+  {
+   "id": "Ugwf64i6Ou8XmAAr3kJ4AaABAg.AdZuV4nyo9PAd_OI9ABfTk",
+   "deleted": false,
+   "posted": "2026-11-24 11:27",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "욕설/모욕",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "implied": "햇살메이사랑단 팬들이 쓸데없는 짓을 한다",
+   "reason": "메이 팬 모임 제안에 욕설로 비꼬아 팬덤을 조롱한다. 농담일 가능성도 있다.",
+   "text": "ㅈ랄 ㅋㅋ",
+   "video": "공부하기 싫으면 메라디오 오이데~ #메이 #리센느 #햇살메이 #메라디오 #꼬맹메이",
+   "channel": "안녕하세요원이를잘부탁드립니다",
+   "link": "https://www.youtube.com/watch?v=e7ykhHclxiY&lc=Ugwf64i6Ou8XmAAr3kJ4AaABAg.AdZuV4nyo9PAd_OI9ABfTk"
+  },
+  {
+   "id": "UgzyIEyDbKLDAAuJ8vZ4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 11:26",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "멤버 보컬 실력 부족",
+   "implied": "제나는 보컬을 제대로 배운 적이 없어서 지금 실력이 부족하다",
+   "reason": "성장 기대 형식이지만 제대로 배우지 않아 실력이 부족하다는 인상을 남긴다. 사람 확인이 필요하다.",
+   "text": "제나는 보컬 진짜 제대로 배워봤음 좋겠다.. 미친듯이 실력 늘거같음.",
+   "video": "한해, 문세윤 - Love Again (feat. 제나 of RESCENE)｜야외녹음실｜Beyond the Studio｜LIVE",
+   "channel": "1theK Live - 원더케이 라이브",
+   "link": "https://www.youtube.com/watch?v=mXveasS7ZRY&lc=UgzyIEyDbKLDAAuJ8vZ4AaABAg"
+  },
+  {
+   "id": "UgwlzztMBKUJSFBfm3h4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 11:07",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "라이브 논란",
+   "implied": "리센느는 뮤직뱅크 무대에서 실력이 부족했다",
+   "reason": "짧게 무대를 못했다고 단정해 라이브 논란을 부각한다.",
+   "text": "뮤뱅에서는 못했음",
+   "video": "활동 끝났는데, 리센느가 또 '1위' 한 이유 | 아이돌 플래닛",
+   "channel": "아이돌플래닛",
+   "link": "https://www.youtube.com/watch?v=h6YmOsVypqE&lc=UgwlzztMBKUJSFBfm3h4AaABAg"
+  },
+  {
+   "id": "UgxVXDtfHxYepZ8TscJ4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 10:46",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "인기 조롱",
+   "implied": "무명 기간이 길었으면서 왜 이렇게 호들갑이냐",
+   "reason": "긴 무명 기간을 비웃으며 그룹의 서사와 인기를 폄하합니다.",
+   "text": "얘는 무슨 무명기간이 5-6년 되는거임?ㅋㅋ왤케 호들갑이여",
+   "video": "가수 이주헌이 천만원으로 차린 회사 리센느가 영화 같다는 이유",
+   "channel": "체험직",
+   "link": "https://www.youtube.com/watch?v=JZjhtgPjXpc&lc=UgxVXDtfHxYepZ8TscJ4AaABAg"
+  },
+  {
+   "id": "Ugy3URmYWi7wrFkYZ0V4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 10:40",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "욕설/모욕",
+   "target": "그룹 전체",
+   "theme": "외모 조롱",
+   "implied": "리센느 관련 영상은 역겨워서 보기 싫다",
+   "reason": "리센느 영상을 '역겹다'고 하며 폄하합니다. 다만 AI 분석 콘텐츠를 겨냥했을 수도 있어 확인이 필요합니다.",
+   "text": "역겹다. 이런걸 쇼츠에 왜 올리나",
+   "video": "리센느 백화요란 AI 칼군무 분석 #리센느 #칼군무",
+   "channel": "아이돌판독기",
+   "link": "https://www.youtube.com/watch?v=y4Em3wRTerg&lc=Ugy3URmYWi7wrFkYZ0V4AaABAg"
+  },
+  {
+   "id": "Ugz4WiymrFRE3HXNKqd4AaABAg.AdZnz4pQLhnAd_ImiEdIU4",
+   "deleted": false,
+   "posted": "2026-11-24 10:39",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "춤 실력 조롱",
+   "implied": "리센느는 춤도 제대로 못 추니 방탄 콜라보는 꿈도 꾸지 말고 춤 연습이나 해라",
+   "reason": "실력 없는 비판 댓글에 동조하며 춤 연습이나 하라고 비꼬는 조롱입니다. 의도가 모호해 사람이 확인해야 합니다.",
+   "text": "ㅋㅋㅋㅋㅋㄹㅇ 니들춤이나 연습하세뇨~",
+   "video": "아미 걸그룹 리센느",
+   "channel": "알럽셀럽",
+   "link": "https://www.youtube.com/watch?v=eNkFPBrG6js&lc=Ugz4WiymrFRE3HXNKqd4AaABAg.AdZnz4pQLhnAd_ImiEdIU4"
+  },
+  {
+   "id": "Ugz2uE8ZWkm1DlNXaaB4AaABAg.Ad_HovbJeTFAd_IgGL7Nl5",
+   "deleted": false,
+   "posted": "2026-11-24 10:38",
+   "found": "2026-11-24 12:41",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "implied": "리센느 팬들은 입만 열면 문제를 일으키니 가만히 있는 게 낫다",
+   "reason": "'입만 안 열면 좋은 팬들'이라며 팬덤을 깎아내립니다. 상대 댓글과의 맥락상 확인이 필요합니다.",
+   "text": "입만 안열면 딱좋은 팬들....",
+   "video": "리센느 백화요란 AI 칼군무 분석 #리센느 #칼군무",
+   "channel": "아이돌판독기",
+   "link": "https://www.youtube.com/watch?v=y4Em3wRTerg&lc=Ugz2uE8ZWkm1DlNXaaB4AaABAg.Ad_HovbJeTFAd_IgGL7Nl5"
+  },
+  {
    "id": "UgxnPSEAWw3MeBkeePd4AaABAg.AdY_HWdxhJAAd_GM5GDyK5",
    "deleted": false,
    "posted": "2026-11-24 10:18",
@@ -1410,7 +1770,7 @@
   },
   {
    "id": "UgylsekS1W_NDts5M9Z4AaABAg",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-24 08:22",
    "found": "2026-11-24 09:15",
    "confidence": "의심",
@@ -1896,7 +2256,7 @@
   },
   {
    "id": "Ugz4i_FsVV7Gq7mrRvh4AaABAg.AdZ2Edmo-_gAdZLvn66e0v",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-24 01:47",
    "found": "2026-11-24 09:15",
    "confidence": "의심",
