@@ -77,6 +77,9 @@
   .admin button.primary { background: var(--accent); color: #fff; border-color: var(--accent); cursor: pointer; }
   .admin .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 8px; }
   .msg { color: var(--muted); font-size: 13px; }
+  .react.admin-hide { background: transparent; border-color: var(--s3); color: var(--s3); margin-left: auto; }
+  .react.admin-show { background: transparent; border-color: var(--accent); color: var(--accent); margin-left: auto; }
+  .item.is-hidden { outline: 2px dashed var(--s3); opacity: .7; }
   .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--bg);
            padding: 8px 14px; border-radius: 999px; font-size: 13px; opacity: 0; transition: opacity .2s; pointer-events: none; }
   .toast.show { opacity: .92; }
@@ -137,9 +140,14 @@
   <section class="admin" id="admin" hidden>
     <button id="adminOpen">🔒 운영자 정리</button>
     <div id="adminPanel" hidden>
-      <div class="row">
+      <div class="row" id="loginRow">
         <input type="password" id="pw" placeholder="운영자 비밀번호" autocomplete="current-password">
+        <button class="primary" id="loginBtn">운영자 모드 켜기</button>
+      </div>
+      <div class="row" id="adminTools" hidden>
         <button class="primary" id="cleanBtn">정리 대기 항목 목록에서 내리기</button>
+        <label><input type="checkbox" id="showHidden"> 숨긴 항목도 보기</label>
+        <button id="logoutBtn">운영자 모드 끄기</button>
       </div>
       <p class="msg" id="adminMsg"></p>
     </div>
@@ -164,6 +172,7 @@
   let theme = "";
   let api = "";
   let counts = {}, hidden = {}, mine = {};
+  let adminPw = ""; // 운영자 모드: 비밀번호는 이 페이지를 연 동안 메모리에만 보관
 
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -183,8 +192,9 @@
     const minSev = Number($("sev").value);
     const cat = $("cat").value, conf = $("conf").value, kind = $("kind").value;
     const hideMine = $("hideDone").checked, onlyPending = $("onlyPending").checked;
+    const showHidden = adminPw && $("showHidden").checked;
     let items = data.items.filter((it) =>
-      !hidden[it.id] &&
+      (showHidden || !hidden[it.id]) &&
       it.severity >= minSev &&
       (!cat || it.category === cat) &&
       (!conf || it.confidence === conf) &&
@@ -204,7 +214,7 @@
     $("list").innerHTML = items.length ? items.map((it) => {
       const c = counts[it.id] || {}, my = mine[it.id] || [], pend = pendingReason(it);
       return `
-      <article class="item ${it.deleted ? "deleted" : ""}" data-id="${esc(it.id)}">
+      <article class="item ${it.deleted ? "deleted" : ""} ${hidden[it.id] ? "is-hidden" : ""}" data-id="${esc(it.id)}">
         <div class="meta">
           ${it.deleted ? `<span class="tag gone">✅ 삭제 확인</span>` : ""}
           ${pend && api ? `<span class="tag pending">정리 대기</span>` : ""}
@@ -223,7 +233,10 @@
           <a href="${esc(it.link)}" target="_blank" rel="noopener noreferrer">원 댓글 보기 ↗</a>
         </div>
         ${api ? `<div class="reacts">${KINDS.map(([k, label]) =>
-          `<button class="react ${my.includes(k) ? "on" : ""}" data-kind="${k}">${label} <b>${c[k] || 0}</b></button>`).join("")}</div>` : ""}
+          `<button class="react ${my.includes(k) ? "on" : ""}" data-kind="${k}">${label} <b>${c[k] || 0}</b></button>`).join("")}
+          ${adminPw ? (hidden[it.id]
+            ? `<button class="react admin-show" data-admin="unhide">↩ 다시 보이기</button>`
+            : `<button class="react admin-hide" data-admin="hide">🙈 숨기기</button>`) : ""}</div>` : ""}
       </article>`;
     }).join("") : `<div class="empty">조건에 맞는 댓글이 없어요.</div>`;
   }
@@ -245,6 +258,20 @@
   $("list").addEventListener("click", async (e) => {
     const b = e.target.closest(".react"); if (!b) return;
     const id = b.closest(".item").dataset.id, kind = b.dataset.kind;
+    if (b.dataset.admin) {
+      b.disabled = true;
+      try {
+        if (b.dataset.admin === "hide") {
+          await call("/api/admin/hide", { password: adminPw, ids: [id], reason: "manual" });
+          hidden[id] = "manual"; toast("목록에서 숨겼어요. ‘숨긴 항목도 보기’에서 되돌릴 수 있어요.");
+        } else {
+          await call("/api/admin/unhide", { password: adminPw, ids: [id] });
+          delete hidden[id]; toast("다시 보이게 했어요.");
+        }
+        render();
+      } catch (err) { toast(err.message); b.disabled = false; }
+      return;
+    }
     const on = (mine[id] || []).includes(kind);
     b.disabled = true;
     try {
@@ -257,14 +284,27 @@
   });
 
   $("adminOpen").addEventListener("click", () => { $("adminPanel").hidden = !$("adminPanel").hidden; $("pw").focus(); });
+  $("loginBtn").addEventListener("click", async () => {
+    try {
+      await call("/api/admin/check", { password: $("pw").value });
+      adminPw = $("pw").value; $("pw").value = "";
+      $("loginRow").hidden = true; $("adminTools").hidden = false;
+      $("adminMsg").textContent = "운영자 모드예요. 각 댓글의 🙈 숨기기로 바로 내릴 수 있어요.";
+      render();
+    } catch (err) { $("adminMsg").textContent = err.message; }
+  });
+  $("pw").addEventListener("keydown", (e) => { if (e.key === "Enter") $("loginBtn").click(); });
+  $("logoutBtn").addEventListener("click", () => {
+    adminPw = ""; $("showHidden").checked = false;
+    $("loginRow").hidden = false; $("adminTools").hidden = true; $("adminMsg").textContent = "";
+    render();
+  });
+  $("showHidden").addEventListener("input", render);
   let reviewed = false;
   $("cleanBtn").addEventListener("click", async () => {
     const targets = data.items.filter((it) => !hidden[it.id] && pendingReason(it));
     if (!targets.length) { $("adminMsg").textContent = "지금 정리 대기 중인 항목이 없어요."; return; }
     if (!reviewed) {
-      // 비밀번호부터 확인
-      try { await call("/api/admin/check", { password: $("pw").value }); }
-      catch (err) { $("adminMsg").textContent = err.message; return; }
       // 장난으로 몰아 누른 '패스'를 걸러낼 수 있게, 내리기 전에 한 번 모아서 보여 줌
       reviewed = true;
       $("onlyPending").checked = true; render();
@@ -277,7 +317,7 @@
     try {
       for (const reason of ["pass", "deleted"]) {
         const ids = targets.filter((it) => pendingReason(it) === reason).map((it) => it.id);
-        if (ids.length) await call("/api/admin/hide", { password: $("pw").value, ids, reason });
+        if (ids.length) await call("/api/admin/hide", { password: adminPw, ids, reason });
       }
       targets.forEach((it) => (hidden[it.id] = pendingReason(it)));
       $("adminMsg").textContent = `${targets.length}건을 목록에서 내렸어요.`;

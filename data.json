@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-11-24 10:01",
+ "updated_at": "2026-11-24 10:24",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 319,
- "comments_collected": 7525,
- "comments_checked": 7525,
+ "videos_tracked": 328,
+ "comments_collected": 7619,
+ "comments_checked": 7619,
  "themes_7d": [
   {
    "theme": "팬덤 비하",
@@ -22,17 +22,22 @@
    "indirect": 5
   },
   {
+   "theme": "활동 방식 조롱",
+   "count": 7,
+   "indirect": 6
+  },
+  {
    "theme": "성적 조롱",
    "count": 7,
    "indirect": 6
   },
   {
-   "theme": "활동 방식 조롱",
+   "theme": "원이 보컬",
    "count": 6,
-   "indirect": 5
+   "indirect": 4
   },
   {
-   "theme": "원이 보컬",
+   "theme": "리브 라이브 실력",
    "count": 6,
    "indirect": 4
   },
@@ -47,24 +52,19 @@
    "indirect": 2
   },
   {
+   "theme": "미나미 외 멤버 실력",
+   "count": 5,
+   "indirect": 5
+  },
+  {
    "theme": "멤버 보컬 실력 부족",
    "count": 5,
    "indirect": 4
   },
   {
-   "theme": "리브 라이브 실력",
-   "count": 5,
-   "indirect": 3
-  },
-  {
    "theme": "원이 춤 실력",
    "count": 4,
    "indirect": 2
-  },
-  {
-   "theme": "원이 외모",
-   "count": 4,
-   "indirect": 1
   }
  ],
  "themes_all": [
@@ -84,17 +84,22 @@
    "indirect": 5
   },
   {
+   "theme": "활동 방식 조롱",
+   "count": 7,
+   "indirect": 6
+  },
+  {
    "theme": "성적 조롱",
    "count": 7,
    "indirect": 6
   },
   {
-   "theme": "활동 방식 조롱",
+   "theme": "원이 보컬",
    "count": 6,
-   "indirect": 5
+   "indirect": 4
   },
   {
-   "theme": "원이 보컬",
+   "theme": "리브 라이브 실력",
    "count": 6,
    "indirect": 4
   },
@@ -109,24 +114,19 @@
    "indirect": 2
   },
   {
+   "theme": "미나미 외 멤버 실력",
+   "count": 5,
+   "indirect": 5
+  },
+  {
    "theme": "멤버 보컬 실력 부족",
    "count": 5,
    "indirect": 4
   },
   {
-   "theme": "리브 라이브 실력",
-   "count": 5,
-   "indirect": 3
-  },
-  {
    "theme": "원이 춤 실력",
    "count": 4,
    "indirect": 2
-  },
-  {
-   "theme": "원이 외모",
-   "count": 4,
-   "indirect": 1
   }
  ],
  "items": [
@@ -201,6 +201,24 @@
    "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
    "channel": "YTN star",
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg"
+  },
+  {
+   "id": "UgzTD8mIUrfC-sEV4gF4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 10:19",
+   "found": "2026-11-24 10:24",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "미나미 외 멤버 실력",
+   "implied": "미나미만 에이스이고 한국 멤버들은 실력이 실망스럽다",
+   "reason": "미나미를 치켜세우며 나머지 한국 멤버들의 실력을 '실망 그자체'로 깎아내렸다.",
+   "text": "아이돌그룹들 별 관심은 없는데 놀면뭐하니에 미나미 나온거 보고,\n와 저그룹은 일본인 멤버가 저정도 실력과 한국노래 하는거면 다른 멤버는 최소 그 이상 하겠지라 생각했음, 그런데 그 일본인 멤버가 최고 에이스였고, 리센느 다른 한국멤버들은 실망 그자체ㅜ 씁쓸하다,",
+   "video": "'WITH' 녹음하다가 한숨 쉬는 리브",
+   "channel": "꾸센느",
+   "link": "https://www.youtube.com/watch?v=nt7_0ZkrTO8&lc=UgzTD8mIUrfC-sEV4gF4AaABAg"
   },
   {
    "id": "UgziUANqzZwBgBVl2BB4AaABAg.AdZVN55ollGAd_5-7mSCNw",
@@ -816,7 +834,7 @@
   },
   {
    "id": "Ugz9NLYBj2ILKi1SpDx4AaABAg.AdYaT8EMcVvAdYlUdOEveL",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-23 20:20",
    "found": "2026-11-23 23:23",
    "confidence": "확실",
@@ -1265,6 +1283,42 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg.AdYVpCvniBQAdYZO-9dGPl"
   },
   {
+   "id": "UgxnPSEAWw3MeBkeePd4AaABAg.AdY_HWdxhJAAd_GM5GDyK5",
+   "deleted": false,
+   "posted": "2026-11-24 10:18",
+   "found": "2026-11-24 10:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "기타",
+   "target": "그룹 전체",
+   "theme": "활동 방식 조롱",
+   "implied": "리센느가 시상식 무대에서 과하게 튀며 과시했다",
+   "reason": "부모 댓글의 '得来不易(어렵게 얻은 기회)'에 대해 '太卖弄了(너무 과시한다)'며 웃는 이모지로 비꼬아 그룹을 깎아내리지만, 맥락이 불분명해 사람 확인이 필요하다.",
+   "text": "这场合不适合这种。。。自己演唱会还差不多😂😂😂太卖弄了",
+   "video": "RESCENE首次MAMA舞台結束後，現場突然響起一段聲音…🥹",
+   "channel": "人類原來如此",
+   "link": "https://www.youtube.com/watch?v=RsNUQ-N3KUw&lc=UgxnPSEAWw3MeBkeePd4AaABAg.AdY_HWdxhJAAd_GM5GDyK5"
+  },
+  {
+   "id": "Ugx84zSGr5oxM2VHZFh4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 10:08",
+   "found": "2026-11-24 10:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "리브 라이브 실력",
+   "implied": "리브는 목소리가 약해서 라이브에서는 마이크 볼륨이 커야만 부를 수 있다",
+   "reason": "설명하는 말투지만 리브의 라이브 가창이 약하다는 인상을 남긴다.",
+   "text": "저런소리라서 라이브에서 마이크 볼륨 크지 않으면 부르기가 힘든거지",
+   "video": "리센느 메인보컬 리브 차력쇼❤️ | shorts | RESCENE (리센느) | リセンヌ | DRAGON | Finest Thing | 백화요란 | MEME | WITH | 이리단",
+   "channel": "리센느닷없이",
+   "link": "https://www.youtube.com/watch?v=6Uv94-3dpCc&lc=Ugx84zSGr5oxM2VHZFh4AaABAg"
+  },
+  {
    "id": "UgwcNAfoTWv405Bgk9J4AaABAg",
    "deleted": false,
    "posted": "2026-11-24 10:00",
@@ -1299,6 +1353,24 @@
    "video": "'WITH' 녹음하다가 한숨 쉬는 리브",
    "channel": "꾸센느",
    "link": "https://www.youtube.com/watch?v=nt7_0ZkrTO8&lc=Ugy2Ov5CK5B443qboRB4AaABAg"
+  },
+  {
+   "id": "UgwdqoBAToc2XoRxpdx4AaABAg",
+   "deleted": false,
+   "posted": "2026-11-24 09:37",
+   "found": "2026-11-24 10:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "원이 체형",
+   "implied": "멤버들은 많이 먹어서 살이 찌는 것이다",
+   "reason": "'열받는 말'이 살 관련 언급임을 알고 '인풋이 많아서 찐다'고 비꼬는 체형 조롱이다.",
+   "text": "내성이 생기는게 아니라 아웃풋 대비 인풋이 많으니까 찌는 거겠죠 ㅎ",
+   "video": "리센느 멤버들이 듣는 순간 찐으로 열받는 말",
+   "channel": "스타의 진심",
+   "link": "https://www.youtube.com/watch?v=3OGPYYbhY18&lc=UgwdqoBAToc2XoRxpdx4AaABAg"
   },
   {
    "id": "Ugz-Ohqck8csXWQF86h4AaABAg.AdZELk5J9fjAd_4xVUKusg",
@@ -2364,7 +2436,7 @@
   },
   {
    "id": "Ugy0b8H5bC9ghPID3O14AaABAg",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-23 22:47",
    "found": "2026-11-23 23:23",
    "confidence": "의심",
@@ -2976,7 +3048,7 @@
   },
   {
    "id": "UgwGqGX_-oFFKrkb3cF4AaABAg",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-23 17:25",
    "found": "2026-11-23 23:23",
    "confidence": "의심",
