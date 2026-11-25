@@ -1,11 +1,44 @@
 {
- "updated_at": "2026-11-25 17:07",
+ "updated_at": "2026-11-25 17:13",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 815,
- "comments_collected": 19460,
- "comments_checked": 19460,
+ "videos_tracked": 822,
+ "comments_collected": 19514,
+ "comments_checked": 19514,
  "videos_flagged": [
+  {
+   "video_id": "JQvzEC0sRg0",
+   "title": "리브도 한숨 쉬는 어려운 With 녹음 #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
+   "channel": "뮤드숏",
+   "toxic": 7,
+   "total": 60,
+   "ratio": 0.1167,
+   "submitted": false,
+   "last": "2026-11-25 17:13",
+   "link": "https://www.youtube.com/watch?v=JQvzEC0sRg0"
+  },
+  {
+   "video_id": "R58OJdjJb3o",
+   "title": "귀여운 컨셉도 찰떡, 리센느의 체포하겠어 챌린지 #리센느 #RESCENE #체포하겠어 #멜론스테이지99 #Shorts",
+   "channel": "enterpocket",
+   "toxic": 9,
+   "total": 49,
+   "ratio": 0.1837,
+   "submitted": false,
+   "last": "2026-11-25 17:13",
+   "link": "https://www.youtube.com/watch?v=R58OJdjJb3o"
+  },
+  {
+   "video_id": "eNkFPBrG6js",
+   "title": "아미 걸그룹 리센느",
+   "channel": "알럽셀럽",
+   "toxic": 16,
+   "total": 93,
+   "ratio": 0.172,
+   "submitted": false,
+   "last": "2026-11-25 17:13",
+   "link": "https://www.youtube.com/watch?v=eNkFPBrG6js"
+  },
   {
    "video_id": "-flKkg1yAOc",
    "title": "결국 꿈을 이룬 리센느 원이",
@@ -62,17 +95,6 @@
    "link": "https://www.youtube.com/watch?v=DZABvVAn_PA"
   },
   {
-   "video_id": "R58OJdjJb3o",
-   "title": "귀여운 컨셉도 찰떡, 리센느의 체포하겠어 챌린지 #리센느 #RESCENE #체포하겠어 #멜론스테이지99 #Shorts",
-   "channel": "enterpocket",
-   "toxic": 8,
-   "total": 40,
-   "ratio": 0.2,
-   "submitted": false,
-   "last": "2026-11-25 17:07",
-   "link": "https://www.youtube.com/watch?v=R58OJdjJb3o"
-  },
-  {
    "video_id": "VKeYFDpX6xM",
    "title": "리센느 5명 칼군무, AI가 채점해 봤더니…",
    "channel": "덕심저장소",
@@ -104,17 +126,6 @@
    "submitted": false,
    "last": "2026-11-25 17:07",
    "link": "https://www.youtube.com/watch?v=c1yyXZiVhXw"
-  },
-  {
-   "video_id": "eNkFPBrG6js",
-   "title": "아미 걸그룹 리센느",
-   "channel": "알럽셀럽",
-   "toxic": 16,
-   "total": 92,
-   "ratio": 0.1739,
-   "submitted": false,
-   "last": "2026-11-25 17:07",
-   "link": "https://www.youtube.com/watch?v=eNkFPBrG6js"
   },
   {
    "video_id": "fYm3bmZ9fdg",
@@ -203,17 +214,6 @@
    "submitted": false,
    "last": "2026-11-25 15:44",
    "link": "https://www.youtube.com/watch?v=F6Jq1Ei-f8Q"
-  },
-  {
-   "video_id": "JQvzEC0sRg0",
-   "title": "리브도 한숨 쉬는 어려운 With 녹음 #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
-   "channel": "뮤드숏",
-   "toxic": 7,
-   "total": 59,
-   "ratio": 0.1186,
-   "submitted": false,
-   "last": "2026-11-25 15:44",
-   "link": "https://www.youtube.com/watch?v=JQvzEC0sRg0"
   },
   {
    "video_id": "Nc-ptwQB3Zw",
@@ -424,6 +424,11 @@
    "indirect": 22
   },
   {
+   "theme": "원이 춤 실력",
+   "count": 26,
+   "indirect": 8
+  },
+  {
    "theme": "라이브 논란",
    "count": 26,
    "indirect": 20
@@ -432,11 +437,6 @@
    "theme": "노래 실력 부족",
    "count": 26,
    "indirect": 12
-  },
-  {
-   "theme": "원이 춤 실력",
-   "count": 25,
-   "indirect": 8
   },
   {
    "theme": "태도 비하",
@@ -486,6 +486,11 @@
    "indirect": 22
   },
   {
+   "theme": "원이 춤 실력",
+   "count": 26,
+   "indirect": 8
+  },
+  {
    "theme": "라이브 논란",
    "count": 26,
    "indirect": 20
@@ -494,11 +499,6 @@
    "theme": "노래 실력 부족",
    "count": 26,
    "indirect": 12
-  },
-  {
-   "theme": "원이 춤 실력",
-   "count": 25,
-   "indirect": 8
   },
   {
    "theme": "태도 비하",
@@ -4411,6 +4411,26 @@
    "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
    "channel": "YTN star",
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg.AdYVpCvniBQAdYZO-9dGPl"
+  },
+  {
+   "id": "UgzZhIdGviN4xXxOdvV4AaABAg.AdcContQ-0nAdc_0sceFw4",
+   "vid": "R58OJdjJb3o",
+   "deleted": false,
+   "posted": "2026-11-25 17:08",
+   "found": "2026-11-25 17:13",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "멤버",
+   "theme": "원이 춤 실력",
+   "artist": "리센느",
+   "implied": "원이는 안무를 틀린다",
+   "reason": "원이의 안무 실수를 ㅋㅋㅋ로 조롱하며 춤 실력을 깎아내린다.",
+   "text": "@(계정) ㅋㅋㅋㅋㅋ",
+   "video": "귀여운 컨셉도 찰떡, 리센느의 체포하겠어 챌린지 #리센느 #RESCENE #체포하겠어 #멜론스테이지99 #Shorts",
+   "channel": "enterpocket",
+   "link": "https://www.youtube.com/watch?v=R58OJdjJb3o&lc=UgzZhIdGviN4xXxOdvV4AaABAg.AdcContQ-0nAdc_0sceFw4"
   },
   {
    "id": "UgzgFhHUPok7l_DyVuh4AaABAg.AdcSbyPcQG8AdcYnUE9qrd",
