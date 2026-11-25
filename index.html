@@ -206,13 +206,14 @@
     제보 전에 <strong>‘원 댓글 보기’</strong>로 직접 확인해 주세요.<br>
     <strong>‘원 댓글 보기’를 눌렀는데 댓글이 안 보이면</strong>, 이미 신고가 받아들여져 삭제됐거나 작성자가 지운 거예요.
     그럴 땐 <strong>🗑 삭제됨</strong>을 눌러 알려 주세요. YouTube에서 삭제가 확인된 댓글은 자동으로 <strong>✅ 삭제 확인</strong> 표시가 붙고 며칠 뒤 목록에서 내려가요.<br>
-    <span id="reactHelp">각 댓글의 <strong>🚨 신고함</strong>은 YouTube에 신고했을 때, <strong>🙅 패스</strong>는 악플이 아니라고 생각될 때 눌러 주세요. 같은 의견이 여러 개 모이면 운영자가 정리해요.</span>
+    <span id="reactHelp">각 댓글의 <strong>🚨 신고함</strong>은 YouTube나 소속사에 신고했을 때 눌러 주세요. 2명 이상 누르면 <strong>‘🚨 신고함’ 탭</strong>으로 자동으로 옮겨져서 남은 댓글에 집중할 수 있어요. <strong>🙅 패스</strong>는 악플이 아니라고 생각될 때 눌러 주세요. 같은 의견이 여러 개 모이면 운영자가 정리해요.</span>
     작성자 정보는 표시하지 않으며, 작성자에게 직접 대응하기보다 소속사 제보 창구와 YouTube 신고 기능을 이용해 주세요.
   </div>
 
   <div class="seg" id="confSeg">
     <button data-conf="확실" class="on">확실만 보기</button>
     <button data-conf="">확실 + 의심 같이 보기</button>
+    <button data-conf="reported" id="reportedTab">🚨 신고함</button>
   </div>
   <div class="controls">
     <input type="search" id="q" placeholder="댓글·영상 제목 검색">
@@ -287,6 +288,7 @@
 
 <script>
 (() => {
+  const REPORTED_MIN = 2; // '🚨 신고함'이 이만큼 눌리면 신고함 탭으로 자동 이동
   const THRESHOLD = 3; // 같은 리액션이 이만큼 모이면 '정리 대기'
   const KINDS = [["report", "🚨 신고함"], ["pass", "🙅 패스"], ["deleted", "🗑 삭제됨"]];
   const $ = (id) => document.getElementById(id);
@@ -309,6 +311,7 @@
   const fmt = (n) => Number(n || 0).toLocaleString("ko-KR");
   const toast = (t) => { const el = $("toast"); el.textContent = t; el.classList.add("show");
                          clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove("show"), 2200); };
+  const isReported = (it) => ((counts[it.id] || {}).report || 0) >= REPORTED_MIN;
   const total = (id) => Object.values(counts[id] || {}).reduce((a, b) => a + b, 0);
   const pendingReason = (it) => {
     const c = counts[it.id] || {};
@@ -327,7 +330,7 @@
       (showHidden || !hidden[it.id]) &&
       it.severity >= minSev &&
       (!cat || it.category === cat) &&
-      (!conf || it.confidence === conf) &&
+      (conf === "reported" ? isReported(it) : !isReported(it) && (!conf || it.confidence === conf)) &&
       (!kind || it.kind === kind) &&
       (!theme || it.theme === theme) &&
       (!hideMine || !(mine[it.id] || []).length) &&
@@ -343,6 +346,8 @@
                   b.severity - a.severity || b.posted.localeCompare(a.posted));
 
     shown = items;
+    const nRep = data.items.filter((it) => !hidden[it.id] && isReported(it)).length;
+    $("reportedTab").textContent = `🚨 신고함 ${fmt(nRep)}`;
     const vf = vidFilter && (data.videos_flagged || []).find((v) => v.video_id === vidFilter);
     $("vidChip").hidden = !vidFilter;
     const vt = vf ? vf.title : ((data.items.find((x) => x.vid === vidFilter) || {}).video || "선택한 영상");
@@ -417,7 +422,9 @@
     b.disabled = true;
     try {
       const res = await call("/api/react", { id, kind, undo: on });
+      const was = isReported({ id });
       counts[id] = res.counts;
+      if (!was && isReported({ id }) && confMode !== "reported") toast("신고가 2건 이상 모여 ‘🚨 신고함’ 탭으로 옮겨졌어요.");
       mine[id] = on ? (mine[id] || []).filter((k) => k !== kind) : [...(mine[id] || []), kind];
       if (!on && kind === "deleted") toast("알려 주셔서 고마워요. 확인되면 목록에서 내려가요.");
       render();
@@ -705,7 +712,7 @@
     .then(async (d) => {
       data = d;
       api = (d.api || "").replace(/\/$/, "");
-      if (!api) { $("reactHelp").hidden = true; $("hideDone").parentElement.hidden = true; $("onlyPending").parentElement.hidden = true; }
+      if (!api) { $("reportedTab").hidden = true; $("reactHelp").hidden = true; $("hideDone").parentElement.hidden = true; $("onlyPending").parentElement.hidden = true; }
       else { $("admin").hidden = false; $("submitBox").hidden = false; }
       renderVideos();
       $("updated").textContent = `${d.since} 이후 업로드된 영상 기준 · 마지막 갱신 ${d.updated_at} (KST)`;
