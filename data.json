@@ -1,31 +1,53 @@
 {
- "updated_at": "2026-11-25 15:54",
+ "updated_at": "2026-11-25 16:07",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 789,
- "comments_collected": 18991,
- "comments_checked": 18991,
+ "videos_tracked": 793,
+ "comments_collected": 19085,
+ "comments_checked": 19085,
  "videos_flagged": [
   {
    "video_id": "0O7kHF35VUk",
    "title": "말실수하자마자 바로 폭격하는 리센느",
    "channel": "핫걸메이는존재한다",
    "toxic": 7,
-   "total": 104,
-   "ratio": 0.0673,
+   "total": 105,
+   "ratio": 0.0667,
    "submitted": false,
-   "last": "2026-11-25 15:54",
+   "last": "2026-11-25 16:07",
    "link": "https://www.youtube.com/watch?v=0O7kHF35VUk"
+  },
+  {
+   "video_id": "3IxXojSVcJk",
+   "title": "멜론뮤직어워드 리센느 에스파 MMA RESCENE AESPA /26.11.14/",
+   "channel": "LuvBe",
+   "toxic": 3,
+   "total": 49,
+   "ratio": 0.0612,
+   "submitted": false,
+   "last": "2026-11-25 16:07",
+   "link": "https://www.youtube.com/watch?v=3IxXojSVcJk"
+  },
+  {
+   "video_id": "9d2w8siinzU",
+   "title": "태연, 하루종일 1위!! #태연 #리센느 #산",
+   "channel": "케이팝 트렌드 KPOP Trend",
+   "toxic": 3,
+   "total": 16,
+   "ratio": 0.1875,
+   "submitted": false,
+   "last": "2026-11-25 16:07",
+   "link": "https://www.youtube.com/watch?v=9d2w8siinzU"
   },
   {
    "video_id": "DZABvVAn_PA",
    "title": "리센느 모델 쓴 MLB 회사, 11월 성적표 몇 위? #리센느 #MLB",
    "channel": "인주랑",
    "toxic": 3,
-   "total": 10,
-   "ratio": 0.3,
+   "total": 11,
+   "ratio": 0.2727,
    "submitted": false,
-   "last": "2026-11-25 15:54",
+   "last": "2026-11-25 16:07",
    "link": "https://www.youtube.com/watch?v=DZABvVAn_PA"
   },
   {
@@ -33,21 +55,54 @@
    "title": "귀여운 컨셉도 찰떡, 리센느의 체포하겠어 챌린지 #리센느 #RESCENE #체포하겠어 #멜론스테이지99 #Shorts",
    "channel": "enterpocket",
    "toxic": 7,
-   "total": 26,
-   "ratio": 0.2692,
+   "total": 28,
+   "ratio": 0.25,
    "submitted": false,
-   "last": "2026-11-25 15:54",
+   "last": "2026-11-25 16:07",
    "link": "https://www.youtube.com/watch?v=R58OJdjJb3o"
+  },
+  {
+   "video_id": "VKeYFDpX6xM",
+   "title": "리센느 5명 칼군무, AI가 채점해 봤더니…",
+   "channel": "덕심저장소",
+   "toxic": 3,
+   "total": 19,
+   "ratio": 0.1579,
+   "submitted": false,
+   "last": "2026-11-25 16:07",
+   "link": "https://www.youtube.com/watch?v=VKeYFDpX6xM"
+  },
+  {
+   "video_id": "W-Pc5un3Cc4",
+   "title": "50대 반값 뺀 그 주, 삼성이 판 깔았다 #리센느",
+   "channel": "하마트",
+   "toxic": 3,
+   "total": 32,
+   "ratio": 0.0938,
+   "submitted": false,
+   "last": "2026-11-25 16:07",
+   "link": "https://www.youtube.com/watch?v=W-Pc5un3Cc4"
+  },
+  {
+   "video_id": "X-snr-HSzAk",
+   "title": "오히려 독일 수도 있다는 리센느 미나미",
+   "channel": "보리차",
+   "toxic": 12,
+   "total": 160,
+   "ratio": 0.075,
+   "submitted": false,
+   "last": "2026-11-25 16:07",
+   "link": "https://www.youtube.com/watch?v=X-snr-HSzAk"
   },
   {
    "video_id": "t_FO4s0AY8E",
    "title": "의미없는 상이라고 리센느 MAMA 수상 깎아내리다 '10년 명단' 보고 역풍 맞은 이유",
    "channel": "탄픽",
    "toxic": 14,
-   "total": 223,
-   "ratio": 0.0628,
+   "total": 224,
+   "ratio": 0.0625,
    "submitted": false,
-   "last": "2026-11-25 15:54",
+   "last": "2026-11-25 16:07",
    "link": "https://www.youtube.com/watch?v=t_FO4s0AY8E"
   },
   {
@@ -60,17 +115,6 @@
    "submitted": false,
    "last": "2026-11-25 15:44",
    "link": "https://www.youtube.com/watch?v=0Vq9oJ97agI"
-  },
-  {
-   "video_id": "3IxXojSVcJk",
-   "title": "멜론뮤직어워드 리센느 에스파 MMA RESCENE AESPA /26.11.14/",
-   "channel": "LuvBe",
-   "toxic": 3,
-   "total": 47,
-   "ratio": 0.0638,
-   "submitted": false,
-   "last": "2026-11-25 15:44",
-   "link": "https://www.youtube.com/watch?v=3IxXojSVcJk"
   },
   {
    "video_id": "BPDMEIZD7_8",
@@ -115,28 +159,6 @@
    "submitted": false,
    "last": "2026-11-25 15:44",
    "link": "https://www.youtube.com/watch?v=Nc-ptwQB3Zw"
-  },
-  {
-   "video_id": "VKeYFDpX6xM",
-   "title": "리센느 5명 칼군무, AI가 채점해 봤더니…",
-   "channel": "덕심저장소",
-   "toxic": 3,
-   "total": 18,
-   "ratio": 0.1667,
-   "submitted": false,
-   "last": "2026-11-25 15:44",
-   "link": "https://www.youtube.com/watch?v=VKeYFDpX6xM"
-  },
-  {
-   "video_id": "X-snr-HSzAk",
-   "title": "오히려 독일 수도 있다는 리센느 미나미",
-   "channel": "보리차",
-   "toxic": 12,
-   "total": 159,
-   "ratio": 0.0755,
-   "submitted": false,
-   "last": "2026-11-25 15:44",
-   "link": "https://www.youtube.com/watch?v=X-snr-HSzAk"
   },
   {
    "video_id": "XE2s1D7jmx4",
@@ -247,17 +269,6 @@
    "submitted": false,
    "last": "2026-11-25 14:39",
    "link": "https://www.youtube.com/watch?v=SKsNEP_gNZ0"
-  },
-  {
-   "video_id": "W-Pc5un3Cc4",
-   "title": "50대 반값 뺀 그 주, 삼성이 판 깔았다 #리센느",
-   "channel": "하마트",
-   "toxic": 3,
-   "total": 29,
-   "ratio": 0.1034,
-   "submitted": false,
-   "last": "2026-11-25 14:39",
-   "link": "https://www.youtube.com/watch?v=W-Pc5un3Cc4"
   },
   {
    "video_id": "giRO0O1QqmI",
@@ -399,13 +410,18 @@
  "themes_7d": [
   {
    "theme": "팬덤 비하",
-   "count": 39,
+   "count": 41,
    "indirect": 26
   },
   {
    "theme": "외모 조롱",
    "count": 30,
    "indirect": 14
+  },
+  {
+   "theme": "인기 조롱",
+   "count": 26,
+   "indirect": 21
   },
   {
    "theme": "라이브 논란",
@@ -416,11 +432,6 @@
    "theme": "노래 실력 부족",
    "count": 26,
    "indirect": 12
-  },
-  {
-   "theme": "인기 조롱",
-   "count": 25,
-   "indirect": 20
   },
   {
    "theme": "원이 보컬",
@@ -461,13 +472,18 @@
  "themes_all": [
   {
    "theme": "팬덤 비하",
-   "count": 39,
+   "count": 41,
    "indirect": 26
   },
   {
    "theme": "외모 조롱",
    "count": 30,
    "indirect": 14
+  },
+  {
+   "theme": "인기 조롱",
+   "count": 26,
+   "indirect": 21
   },
   {
    "theme": "라이브 논란",
@@ -478,11 +494,6 @@
    "theme": "노래 실력 부족",
    "count": 26,
    "indirect": 12
-  },
-  {
-   "theme": "인기 조롱",
-   "count": 25,
-   "indirect": 20
   },
   {
    "theme": "원이 보컬",
@@ -662,6 +673,26 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg"
   },
   {
+   "id": "UgzgFhHUPok7l_DyVuh4AaABAg",
+   "vid": "7Chqeoq2rJI",
+   "deleted": false,
+   "posted": "2026-11-25 16:03",
+   "found": "2026-11-25 16:07",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬은 인기가 끝물인 그룹에 매달려 삼촌 소리를 들으려는 아저씨들이다",
+   "reason": "아저씨 팬덤 프레임에 '끝물', '코인'이라는 표현까지 붙여 팬덤과 그룹을 조롱한다.",
+   "text": "어휴... 아저씨들이 26년 끝물에 어떻게든 리센느 코인 부여잡고 삼촌 소리 좀 들어보겠다고 엄청 엮어대네 ㅉㅉ",
+   "video": "그랜드 리스닝 파티 with. 문세윤, 제나 of 리센느 (RESCENE) | [한해의 키스 더 라디오] | KBS 261124 방송",
+   "channel": "KBS CoolFM",
+   "link": "https://www.youtube.com/watch?v=7Chqeoq2rJI&lc=UgzgFhHUPok7l_DyVuh4AaABAg"
+  },
+  {
    "id": "UgyoBz19_WMsMDbWkFt4AaABAg",
    "vid": "R58OJdjJb3o",
    "deleted": false,
@@ -800,6 +831,26 @@
    "video": "엄마 얘기만 나오면 0.1초 만에 수습하는 탈룰라 장인 리센느",
    "channel": "님이랑",
    "link": "https://www.youtube.com/watch?v=OFpEUUJ-Ei8&lc=UgwI-Bx_3pZSpo3Ywcx4AaABAg"
+  },
+  {
+   "id": "UgyIcSw8TSxwuQogIX94AaABAg.AdbzFerIzukAdc9cffSr1-",
+   "vid": "9d2w8siinzU",
+   "deleted": false,
+   "posted": "2026-11-25 13:17",
+   "found": "2026-11-25 16:07",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "허위사실/루머",
+   "target": "그룹 전체",
+   "theme": "성적 조작 의혹",
+   "artist": "리센느",
+   "implied": "리센느 순위는 봇을 돌린 결과이고 봇 계약이 끝나서 순위가 떨어졌다",
+   "reason": "근거 없이 음원 순위 조작(봇)을 단정하는 루머성 댓글이다.",
+   "text": "봇들 계약 기간 끝난 듯. 싹 사라짐.",
+   "video": "태연, 하루종일 1위!! #태연 #리센느 #산",
+   "channel": "케이팝 트렌드 KPOP Trend",
+   "link": "https://www.youtube.com/watch?v=9d2w8siinzU&lc=UgyIcSw8TSxwuQogIX94AaABAg.AdbzFerIzukAdc9cffSr1-"
   },
   {
    "id": "UgzwJNJmr4xfleGLBRh4AaABAg",
@@ -4282,6 +4333,26 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg.AdYVpCvniBQAdYZO-9dGPl"
   },
   {
+   "id": "UgzpkNYS6StHXYM6P_F4AaABAg.AdbwJkGMSmCAdcRt8kB2_K",
+   "vid": "bRSAuAmQcho",
+   "deleted": false,
+   "posted": "2026-11-25 15:56",
+   "found": "2026-11-25 16:07",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "원이 조롱",
+   "artist": "리센느",
+   "implied": "원이의 목소리는 이사만 좋아하는 목소리다",
+   "reason": "원이의 음색 칭찬 댓글에 비꼬는 말로 답해 원이가 특혜로 밀린다는 인상을 준다. 맥락 확인이 필요하다.",
+   "text": "김혜수 이사가 좋아하는 목소리",
+   "video": "원이 목소리 4키 낮추면? #리센느 #미나미 #제나 #원이 #메이 #리브",
+   "channel": "아수 Asoo",
+   "link": "https://www.youtube.com/watch?v=bRSAuAmQcho&lc=UgzpkNYS6StHXYM6P_F4AaABAg.AdbwJkGMSmCAdcRt8kB2_K"
+  },
+  {
    "id": "UgzaT-GqDQVqODmW1PZ4AaABAg.Adc4rmL4SILAdcRiH7leVO",
    "vid": "iocqXX77eb0",
    "deleted": false,
@@ -4460,6 +4531,26 @@
    "video": "귀여운 컨셉도 찰떡, 리센느의 체포하겠어 챌린지 #리센느 #RESCENE #체포하겠어 #멜론스테이지99 #Shorts",
    "channel": "enterpocket",
    "link": "https://www.youtube.com/watch?v=R58OJdjJb3o&lc=UgwSQ-8R0MJ-jQgQbi54AaABAg"
+  },
+  {
+   "id": "UgwGuGmEBnd44hBpdRp4AaABAg.AdbfeiIB53RAdcKN-u87Ls",
+   "vid": "9d2w8siinzU",
+   "deleted": false,
+   "posted": "2026-11-25 14:51",
+   "found": "2026-11-25 16:07",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬덤은 영포티 아저씨들이다",
+   "reason": "'영포티가 또'라는 말로 리센느 팬덤을 중년 남성 팬덤으로 프레임 씌워 조롱한다.",
+   "text": "영포티가 또.....",
+   "video": "태연, 하루종일 1위!! #태연 #리센느 #산",
+   "channel": "케이팝 트렌드 KPOP Trend",
+   "link": "https://www.youtube.com/watch?v=9d2w8siinzU&lc=UgwGuGmEBnd44hBpdRp4AaABAg.AdbfeiIB53RAdcKN-u87Ls"
   },
   {
    "id": "UgzvkQ03-qv9X08mL8d4AaABAg",
@@ -5080,6 +5171,26 @@
    "video": "가시나야 한마디에 난리 난 리센느 원이",
    "channel": "리썰냥",
    "link": "https://www.youtube.com/watch?v=qu1qE_Z0jdk&lc=UgxQeFiDAixCcjnRIEd4AaABAg"
+  },
+  {
+   "id": "UgyIcSw8TSxwuQogIX94AaABAg",
+   "vid": "9d2w8siinzU",
+   "deleted": false,
+   "posted": "2026-11-25 11:37",
+   "found": "2026-11-25 16:07",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "인기 조롱",
+   "artist": "리센느",
+   "implied": "리센느가 인기 많다더니 순위가 떨어졌다",
+   "reason": "'인기많다며'라는 비꼬는 말투로 리센느의 인기와 순위를 조롱하는 것으로 보인다. 다만 '에투라'가 가리키는 대상이 불분명해 사람 확인이 필요하다.",
+   "text": "아니 에투라 인기많다며",
+   "video": "태연, 하루종일 1위!! #태연 #리센느 #산",
+   "channel": "케이팝 트렌드 KPOP Trend",
+   "link": "https://www.youtube.com/watch?v=9d2w8siinzU&lc=UgyIcSw8TSxwuQogIX94AaABAg"
   },
   {
    "id": "Ugxfrv01wVAmq_fuLk54AaABAg.AdYUN1qWYuVAdbykfoEVe0",
