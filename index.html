@@ -130,6 +130,37 @@
   .copy { white-space: nowrap; }
   .copy.done { background: #2e8b57; border-color: #2e8b57; color: #fff; }
   .modal .acts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .seg { display: inline-flex; background: var(--chip); border-radius: 10px; padding: 3px; gap: 3px; margin: 0 0 10px; }
+  .seg button { font: inherit; font-size: 14px; border: 0; background: transparent; color: var(--muted); padding: 7px 14px;
+                border-radius: 8px; cursor: pointer; }
+  .seg button.on { background: var(--panel); color: var(--ink); font-weight: 700; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+  .board { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 14px; align-items: start; }
+  .board > div, .item, .item > * { min-width: 0; }
+  .item { grid-template-columns: minmax(0, 1fr); }
+  .text, .implied, .reason { overflow-wrap: anywhere; }
+  .meta { min-width: 0; }
+  .vside { position: sticky; top: 64px; max-height: calc(100vh - 80px); overflow: auto; background: var(--panel);
+           border: 1px solid var(--line); border-radius: 12px; padding: 6px; }
+  .vside h3 { font-size: 13px; color: var(--muted); font-weight: 600; margin: 6px 8px 6px; }
+  .vg { display: grid; grid-template-columns: 1fr auto; gap: 6px; align-items: center; width: 100%; text-align: left; font: inherit;
+        background: transparent; border: 0; border-radius: 8px; padding: 7px 8px; cursor: pointer; color: var(--ink); }
+  .vg:hover { background: var(--bg); }
+  .vg.on { background: var(--accent); color: #fff; }
+  .vg .t { font-size: 13px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .vg .c { font-size: 12px; color: var(--muted); }
+  .vg.on .c { color: #fff; opacity: .85; }
+  .vg .n { font-size: 12px; font-weight: 700; background: var(--chip); color: var(--ink); border-radius: 999px; padding: 1px 8px; }
+  .vg.on .n { background: #fff; color: var(--accent); }
+  .vhead { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
+  .vhead h3 { font-size: 15px; margin: 0 0 2px; }
+  .vhead .m { color: var(--muted); font-size: 13px; margin-bottom: 8px; }
+  .vhead .acts { display: flex; flex-wrap: wrap; gap: 8px; }
+  @media (max-width: 760px) {
+    .board { grid-template-columns: minmax(0, 1fr); }
+    .foot { flex-direction: column; align-items: flex-start; }
+    .video { max-width: 100%; }
+    .vside { position: static; max-height: 230px; }
+  }
   footer { margin-top: 36px; font-size: 13px; color: var(--muted); }
 </style>
 </head>
@@ -179,17 +210,16 @@
     작성자 정보는 표시하지 않으며, 작성자에게 직접 대응하기보다 소속사 제보 창구와 YouTube 신고 기능을 이용해 주세요.
   </div>
 
+  <div class="seg" id="confSeg">
+    <button data-conf="확실" class="on">확실만 보기</button>
+    <button data-conf="">확실 + 의심 같이 보기</button>
+  </div>
   <div class="controls">
     <input type="search" id="q" placeholder="댓글·영상 제목 검색">
     <select id="sev">
       <option value="0">심각도 전체</option>
       <option value="3">3 (심각)만</option>
       <option value="2">2 이상</option>
-    </select>
-    <select id="conf">
-      <option value="">확실+의심</option>
-      <option value="확실">확실만</option>
-      <option value="의심">의심만</option>
     </select>
     <select id="kind">
       <option value="">종류 전체</option>
@@ -213,7 +243,13 @@
     <button class="btn" id="selAll">보이는 항목 모두 선택</button>
     <button class="btn" id="selNone">선택 해제</button>
   </div>
-  <main id="list"></main>
+  <div class="board">
+    <aside class="vside" id="vside"></aside>
+    <div>
+      <div class="vhead" id="vhead" hidden></div>
+      <main id="list"></main>
+    </div>
+  </div>
 
   <section class="admin" id="admin" hidden>
     <button id="adminOpen">🔒 운영자 정리</button>
@@ -261,6 +297,7 @@
   let data = { items: [] };
   let theme = "";
   let vidFilter = "";
+  let confMode = "확실"; // 기본: 확실만 보기 (오판이 섞인 '의심'은 원할 때만)
   const picked = new Set();
   let shown = [];
   let api = "";
@@ -283,7 +320,7 @@
   function render() {
     const q = $("q").value.trim().toLowerCase();
     const minSev = Number($("sev").value);
-    const cat = $("cat").value, conf = $("conf").value, kind = $("kind").value;
+    const cat = $("cat").value, conf = confMode, kind = $("kind").value;
     const hideMine = $("hideDone").checked, onlyPending = $("onlyPending").checked;
     const showHidden = adminPw && $("showHidden").checked;
     let items = data.items.filter((it) =>
@@ -293,10 +330,12 @@
       (!conf || it.confidence === conf) &&
       (!kind || it.kind === kind) &&
       (!theme || it.theme === theme) &&
-      (!vidFilter || it.vid === vidFilter) &&
       (!hideMine || !(mine[it.id] || []).length) &&
       (!onlyPending || pendingReason(it)) &&
       (!q || (it.text + " " + it.video + " " + (it.implied || "")).toLowerCase().includes(q)));
+    renderSide(items);
+    if (vidFilter) items = items.filter((it) => it.vid === vidFilter);
+    renderHead(items);
     const sort = $("sort").value;
     items.sort(sort === "new" ? (a, b) => b.posted.localeCompare(a.posted)
       : sort === "react" ? (a, b) => total(b.id) - total(a.id)
@@ -306,7 +345,8 @@
     shown = items;
     const vf = vidFilter && (data.videos_flagged || []).find((v) => v.video_id === vidFilter);
     $("vidChip").hidden = !vidFilter;
-    if (vidFilter) $("vidChip").textContent = `📺 ${vf ? vf.title : "선택한 영상"} 의 악플만 보는 중  ✕`;
+    const vt = vf ? vf.title : ((data.items.find((x) => x.vid === vidFilter) || {}).video || "선택한 영상");
+    if (vidFilter) $("vidChip").textContent = `📺 ${vt} 의 악플만 보는 중  ✕`;
     $("selN").textContent = picked.size; $("exportBtn").disabled = !picked.size;
     const visible = data.items.filter((it) => !hidden[it.id]).length;
     $("count").textContent = `${fmt(items.length)}건 표시 중 (전체 ${fmt(visible)}건)`;
@@ -467,18 +507,50 @@
       ["게시물 작성자", { note: "① 원 댓글을 열면 댓글 위에 보이는 닉네임(@로 시작)을 복사해 넣어 주세요." }],
       ["첨부 자료", { note: "원 댓글 화면 캡처 — 캡처 날짜·댓글 내용·URL·작성자가 함께 보이게 찍어 주세요. 한 장에 안 담기면 여러 장으로." }],
     ];
+    showForm(rows, it.link, "소속사 제보 양식에 옮기기");
+  }
+  function showForm(rows, firstLink, heading) {
+    $("rtitle").textContent = heading;
     window._rcopy = [];
     $("rform").innerHTML = rows.map(([lab, v]) => {
       const req = lab === "첨부 자료" ? "" : "<i>•</i>";
-      if (v.pick) return `<div class="frow"><div class="lab">${lab}${req}</div><div class="val pick">선택: <b>${esc(v.pick)}</b></div><span></span></div>`;
+      if (v.pick) return `<div class="frow"><div class="lab">${lab}${req}</div><div><div class="val pick">선택: <b>${esc(v.pick)}</b></div>${v.hint2 ? `<div class="msg">${esc(v.hint2)}</div>` : ""}</div><span></span></div>`;
       if (v.note) return `<div class="frow"><div class="lab">${lab}${req}</div><div class="val note">${esc(v.note)}</div><span></span></div>`;
       const k = window._rcopy.push(v.copy) - 1;
       return `<div class="frow"><div class="lab">${lab}${req}</div>
         <div><div class="val ${v.long ? "long" : ""}">${esc(v.copy)}</div>${v.hint ? `<div class="msg" style="margin-top:4px">${esc(v.hint)}</div>` : ""}</div>
         <button class="btn copy" data-k="${k}">복사</button></div>`;
     }).join("");
-    $("rOpenComment").href = it.link;
+    $("rOpenComment").href = firstLink;
     $("rmodal").hidden = false;
+  }
+  // 같은 영상의 여러 댓글을 제보 한 건으로 (양식의 URL·작성일 칸은 하나라 영상 링크와 가장 최근 날짜를 씀)
+  function openBundle(items) {
+    items = [...items].sort((a, b) => a.posted.localeCompare(b.posted));
+    const arts = [...new Set(items.map((x) => x.artist || "리센느"))];
+    const artist = arts.length === 1 ? arts[0] : "리센느";
+    const cats = [...new Set(items.map((x) => x.category))];
+    const vurl = `https://www.youtube.com/watch?v=${items[0].vid}`;
+    const last = items[items.length - 1].posted.slice(0, 10);
+    const title = `[유튜브] ${artist} 악성 댓글 ${items.length}건 제보 (${cats.slice(0, 3).join(", ")}${cats.length > 3 ? " 등" : ""})`;
+    const body = [
+      `유튜브 영상 「${items[0].video}」(${items[0].channel})에 ${artist}를 겨냥한 악성 댓글 ${items.length}건이 있어 한꺼번에 제보합니다.`,
+      `■ 영상 링크: ${vurl}`,
+      "",
+      ...items.map((x, i) => [`[${i + 1}] ${x.posted} · ${x.category}${arts.length > 1 ? ` · ${x.artist || "리센느"}` : ""}`,
+                              x.text, `댓글 링크: ${x.link}`, ""].join("\n")),
+    ].join("\n").trim();
+    showForm([
+      ["아티스트", { pick: artist, hint2: arts.length > 1 ? `여러 멤버(${arts.join(", ")})가 섞여 있어 ‘리센느’로 골랐어요.` : "" }],
+      ["신고 유형", { pick: "아티스트 명예훼손" }],
+      ["제목", { copy: title }],
+      ["신고 내용", { copy: body, long: true }],
+      ["게시 플랫폼", { pick: "유튜브" }],
+      ["게시물 URL", { copy: vurl, hint: "칸이 하나라 영상 링크를 넣고, 댓글별 링크는 신고 내용에 들어 있어요." }],
+      ["게시 일자", { copy: last, hint: "여러 건이라 가장 최근 댓글 날짜예요. 달력에서 이 날짜를 고르세요." }],
+      ["게시물 작성자", { note: "① 원 댓글을 열어 각 댓글의 닉네임(@로 시작)을 확인해 ‘@닉네임1, @닉네임2’처럼 쉼표로 이어 넣어 주세요." }],
+      ["첨부 자료", { note: `파일 칸이 3개라 ${items.length > 3 ? "댓글 여러 개를 한 장에 담거나 이어 붙인 캡처로" : "댓글마다 한 장씩"} 올려 주세요. 캡처 날짜·댓글 내용·URL·작성자가 보이게 찍어 주세요.` }],
+    ], items[0].link, `영상 하나로 묶어서 제보 · ${items.length}건`);
   }
   $("rform").addEventListener("click", async (e) => {
     const b = e.target.closest(".copy"); if (!b) return;
@@ -578,7 +650,55 @@
   });
   $("submitUrl").addEventListener("keydown", (e) => { if (e.key === "Enter") $("submitBtn").click(); });
 
-  ["q", "sev", "conf", "kind", "cat", "sort", "hideDone", "onlyPending"].forEach((id) => $(id).addEventListener("input", render));
+  // ---- 확실만 / 확실+의심 ----
+  $("confSeg").addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b) return;
+    confMode = b.dataset.conf;
+    document.querySelectorAll("#confSeg button").forEach((x) => x.classList.toggle("on", x === b));
+    render();
+  });
+
+  // ---- 왼쪽: 영상별 묶음 ----
+  function renderSide(pool) {
+    const groups = new Map();
+    for (const it of pool) {
+      const g = groups.get(it.vid) || { vid: it.vid, title: it.video, channel: it.channel, n: 0 };
+      g.n++; groups.set(it.vid, g);
+    }
+    const list = [...groups.values()].sort((a, b) => b.n - a.n || a.title.localeCompare(b.title));
+    $("vside").innerHTML = `<h3>영상별로 보기 · ${fmt(list.length)}개</h3>
+      <button class="vg ${!vidFilter ? "on" : ""}" data-vid=""><span class="t">전체 영상</span><span class="n">${fmt(pool.length)}</span></button>` +
+      list.map((g) => `<button class="vg ${vidFilter === g.vid ? "on" : ""}" data-vid="${esc(g.vid)}" title="${esc(g.title)}">
+        <span><span class="t">${esc(g.title)}</span><span class="c">${esc(g.channel)}</span></span>
+        <span class="n">${fmt(g.n)}</span></button>`).join("");
+  }
+  $("vside").addEventListener("click", (e) => {
+    const b = e.target.closest(".vg"); if (!b) return;
+    vidFilter = b.dataset.vid; renderVideos(); render();
+    if (window.innerWidth <= 760) window.scrollTo({ top: $("list").offsetTop - 60, behavior: "smooth" });
+  });
+
+  // ---- 선택한 영상 머리말 + 묶어서 제보 ----
+  function renderHead(items) {
+    if (!vidFilter || !items.length) { $("vhead").hidden = true; return; }
+    const it0 = items[0];
+    const sel = items.filter((x) => picked.has(x.id));
+    $("vhead").hidden = false;
+    $("vhead").innerHTML = `<h3>${esc(it0.video)}</h3>
+      <div class="m">${esc(it0.channel)} · 지금 보이는 악플 ${fmt(items.length)}건</div>
+      <div class="acts">
+        <button class="btn primary" data-bundle="all">📮 이 영상 ${fmt(items.length)}건 묶어서 제보하기</button>
+        ${sel.length ? `<button class="btn" data-bundle="sel">✅ 체크한 ${fmt(sel.length)}건만 묶어서 제보하기</button>` : ""}
+        <a class="btn" href="https://www.youtube.com/watch?v=${esc(it0.vid)}" target="_blank" rel="noopener noreferrer">영상 열기 ↗</a>
+      </div>`;
+  }
+  $("vhead").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-bundle]"); if (!b) return;
+    const items = shown.filter((x) => b.dataset.bundle === "all" || picked.has(x.id));
+    if (items.length) openBundle(items);
+  });
+
+  ["q", "sev", "kind", "cat", "sort", "hideDone", "onlyPending"].forEach((id) => $(id).addEventListener("input", render));
 
   fetch("data.json", { cache: "no-store" })
     .then((r) => r.json())
