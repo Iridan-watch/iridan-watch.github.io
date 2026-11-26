@@ -1,11 +1,22 @@
 {
- "updated_at": "2026-11-26 14:24",
+ "updated_at": "2026-11-26 15:13",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 1128,
- "comments_collected": 28293,
- "comments_checked": 28293,
+ "videos_tracked": 1136,
+ "comments_collected": 28499,
+ "comments_checked": 28499,
  "videos_flagged": [
+  {
+   "video_id": "WK_qNE2Imfw",
+   "title": "[리센느]PUBG 관계자분들 여기에요! 리센느가 요즘 푹 빠진 게임",
+   "channel": "아이돌zip",
+   "toxic": 10,
+   "total": 177,
+   "ratio": 0.0565,
+   "submitted": false,
+   "last": "2026-11-26 15:13",
+   "link": "https://www.youtube.com/watch?v=WK_qNE2Imfw"
+  },
   {
    "video_id": "0O7kHF35VUk",
    "title": "말실수하자마자 바로 폭격하는 리센느",
@@ -126,17 +137,6 @@
    "submitted": false,
    "last": "2026-11-26 14:24",
    "link": "https://www.youtube.com/watch?v=W-Pc5un3Cc4"
-  },
-  {
-   "video_id": "WK_qNE2Imfw",
-   "title": "[리센느]PUBG 관계자분들 여기에요! 리센느가 요즘 푹 빠진 게임",
-   "channel": "아이돌zip",
-   "toxic": 10,
-   "total": 168,
-   "ratio": 0.0595,
-   "submitted": false,
-   "last": "2026-11-26 14:24",
-   "link": "https://www.youtube.com/watch?v=WK_qNE2Imfw"
   },
   {
    "video_id": "X-snr-HSzAk",
@@ -558,8 +558,8 @@
   },
   {
    "theme": "외모 조롱",
-   "count": 52,
-   "indirect": 29
+   "count": 54,
+   "indirect": 31
   },
   {
    "theme": "원이 춤 실력",
@@ -568,12 +568,12 @@
   },
   {
    "theme": "태도 비하",
-   "count": 42,
-   "indirect": 23
+   "count": 43,
+   "indirect": 24
   },
   {
    "theme": "노래 실력 부족",
-   "count": 37,
+   "count": 38,
    "indirect": 18
   },
   {
@@ -587,14 +587,14 @@
    "indirect": 27
   },
   {
+   "theme": "활동 방식 조롱",
+   "count": 32,
+   "indirect": 27
+  },
+  {
    "theme": "원이 보컬",
    "count": 32,
    "indirect": 18
-  },
-  {
-   "theme": "활동 방식 조롱",
-   "count": 31,
-   "indirect": 26
   },
   {
    "theme": "부정적 전망",
@@ -620,8 +620,8 @@
   },
   {
    "theme": "외모 조롱",
-   "count": 52,
-   "indirect": 29
+   "count": 54,
+   "indirect": 31
   },
   {
    "theme": "원이 춤 실력",
@@ -630,12 +630,12 @@
   },
   {
    "theme": "태도 비하",
-   "count": 42,
-   "indirect": 23
+   "count": 43,
+   "indirect": 24
   },
   {
    "theme": "노래 실력 부족",
-   "count": 37,
+   "count": 38,
    "indirect": 18
   },
   {
@@ -649,14 +649,14 @@
    "indirect": 27
   },
   {
+   "theme": "활동 방식 조롱",
+   "count": 32,
+   "indirect": 27
+  },
+  {
    "theme": "원이 보컬",
    "count": 32,
    "indirect": 18
-  },
-  {
-   "theme": "활동 방식 조롱",
-   "count": 31,
-   "indirect": 26
   },
   {
    "theme": "부정적 전망",
@@ -814,6 +814,26 @@
    "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
    "channel": "YTN star",
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg"
+  },
+  {
+   "id": "UgyI65768cuz5HVEnpB4AaABAg",
+   "vid": "zWNaCK2UIoQ",
+   "deleted": false,
+   "posted": "2026-11-26 14:42",
+   "found": "2026-11-26 15:13",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "노래 실력 부족",
+   "artist": "리센느",
+   "implied": "리센느는 가수라고 하기엔 춤과 노래 실력이 수준 이하이고 팬은 일베 할배들이다",
+   "reason": "실력을 단정적으로 비하하고 '일베 할배팬'으로 팬덤까지 조롱한다.",
+   "text": "리센느?비주얼 나쁘지 않아요.다만!가수라고 하기엔 춤 실력 노래 실력이 수준 이하라는 겁니다!일베 할배팬들 아시겟나요?",
+   "video": "리센느(RESCENE) 한소절 'With(위드)+Magic(매직)' 헥스: 마녀왕국 스페셜 무대인사 풀버전 [8층 15관 19시 55분 마지막 시간 회차] 261125",
+   "channel": "Rock Music",
+   "link": "https://www.youtube.com/watch?v=zWNaCK2UIoQ&lc=UgyI65768cuz5HVEnpB4AaABAg"
   },
   {
    "id": "Ugyh83eeZFWVe5gkNJd4AaABAg",
@@ -4256,6 +4276,26 @@
    "link": "https://www.youtube.com/watch?v=qu1qE_Z0jdk&lc=Ugy-QBVI239Ljol-oW94AaABAg"
   },
   {
+   "id": "UgwcfCf0__p_M7TQ9EZ4AaABAg",
+   "vid": "yT_1Fz8nbLY",
+   "deleted": false,
+   "posted": "2026-11-26 14:56",
+   "found": "2026-11-26 15:13",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "허위사실/루머",
+   "target": "그룹 전체",
+   "theme": "멤버 사생활 루머",
+   "artist": "리센느",
+   "implied": "리센느 멤버들은 이미 스킨십 경험이 있다",
+   "reason": "'나쁜 말 금지'라는 형식을 빌려 멤버들의 스킨십 경험을 암시하는 루머를 퍼뜨린다.",
+   "text": "ㅋㅋ 이거 통계학에서 상당히 유명한 겁니다\n내가 꼭 성공해서 메이랑 결혼하는건 확률이 낮습니다\n내가 성공을 해도 메이와의 결혼은 어렵죠\n\n하!지!만! ㅋㅋㅋㅋㅋ\n메이가 훗날 누군가와 결혼 했을 때 그 남자는 아마 성공한 사람일 확률이 매우 큽니다 \n\n재밌죠???\n\n리센느 맴버는 뽀뽀 스킨십 이미 유경험자라는 나쁜 말 금지",
+   "video": "왠지 살벌한 리브의 눈빛ㅋ #rescene #리센느 #리브 #메이 #리트와메트",
+   "channel": "프루스트",
+   "link": "https://www.youtube.com/watch?v=yT_1Fz8nbLY&lc=UgwcfCf0__p_M7TQ9EZ4AaABAg"
+  },
+  {
    "id": "Ugxb5idAGCDVZ0PbWz54AaABAg",
    "vid": "7GDwukKWzv4",
    "deleted": false,
@@ -5894,6 +5934,86 @@
    "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
    "channel": "YTN star",
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg.AdYVpCvniBQAdYZO-9dGPl"
+  },
+  {
+   "id": "UgwZDhkcD7It5HUe-kx4AaABAg.AdeiJGyl6VpAdewW1KTp3I",
+   "vid": "DTnDnynl3uE",
+   "deleted": false,
+   "posted": "2026-11-26 15:11",
+   "found": "2026-11-26 15:13",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "외모 조롱",
+   "artist": "리센느",
+   "implied": "제나가 씨름부 같다고 체격을 놀린다",
+   "reason": "부모 댓글의 많이 먹는다는 맥락에서 '씨름부'로 체격을 비꼬는 조롱으로 읽히나 제나를 향한 것인지는 확인이 필요하다.",
+   "text": "@(계정) ㅎㄷㄷ 씨름부세요?? ㅋ",
+   "video": "과소평가당한 리센느 제나 #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
+   "channel": "뮤드숏",
+   "link": "https://www.youtube.com/watch?v=DTnDnynl3uE&lc=UgwZDhkcD7It5HUe-kx4AaABAg.AdeiJGyl6VpAdewW1KTp3I"
+  },
+  {
+   "id": "UgxuJMd3-ngDTTRaTQh4AaABAg",
+   "vid": "4yHtRDOEsHQ",
+   "deleted": false,
+   "posted": "2026-11-26 15:02",
+   "found": "2026-11-26 15:13",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "외모비하",
+   "target": "그룹 전체",
+   "theme": "외모 조롱",
+   "artist": "리센느",
+   "implied": "리센느는 쌩얼을 보면 비주얼 그룹이라 하기 어렵다",
+   "reason": "팬 형식을 빌려 '비주얼 그룹'이라는 평가를 부정하며 쌩얼 외모를 깎아내린다.",
+   "text": "리센느닷없이에서 쌩얼을 봐버려서 비주얼 그룹....음...하..쉽지는 않네. ㅋ 내가 얼굴 보고 좋아하는건 아니니까.",
+   "video": "전원 비주얼 그룹 리센느 #rescene #리센느",
+   "channel": "프루스트",
+   "link": "https://www.youtube.com/watch?v=4yHtRDOEsHQ&lc=UgxuJMd3-ngDTTRaTQh4AaABAg"
+  },
+  {
+   "id": "UgyZDrZQJx2XDYOzA994AaABAg",
+   "vid": "ywqgO2uWq_0",
+   "deleted": false,
+   "posted": "2026-11-26 14:35",
+   "found": "2026-11-26 15:13",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "태도 비하",
+   "artist": "메이",
+   "implied": "메이는 주인공 자리만 탐내는 이기적인 성격이다",
+   "reason": "근거 없이 메이의 태도와 인성을 깎아내리는 단정이다.",
+   "text": "메이는 주인공만 되고 싶어 하는거 같어",
+   "video": "라방 중 받은 청혼 댓글에 메이의 대답 #리센느 #RESCENE #메이 #리브",
+   "channel": "썰제작소",
+   "link": "https://www.youtube.com/watch?v=ywqgO2uWq_0&lc=UgyZDrZQJx2XDYOzA994AaABAg"
+  },
+  {
+   "id": "UgzYrwhV5gXZfRCzOXp4AaABAg.AdeMbH6v8TMAderlxlGlpT",
+   "vid": "lvrWRVDTkwU",
+   "deleted": false,
+   "posted": "2026-11-26 14:30",
+   "found": "2026-11-26 15:13",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "활동 방식 조롱",
+   "artist": "리센느",
+   "implied": "리센느 멤버들이 게임 속 궁녀 같다",
+   "reason": "'삼천궁녀'라는 표현으로 멤버들을 성별 비하적으로 조롱한 것으로 보이나 밈일 가능성이 있어 확인이 필요하다.",
+   "text": "메이플 삼천궁녀 ㅋㅋ@(계정)",
+   "video": "리센느 멤버들이 게임 광고 하는 신박한 방법",
+   "channel": "미녀협회",
+   "link": "https://www.youtube.com/watch?v=lvrWRVDTkwU&lc=UgzYrwhV5gXZfRCzOXp4AaABAg.AdeMbH6v8TMAderlxlGlpT"
   },
   {
    "id": "UgyVXBqT0cHbfrtK0614AaABAg",
