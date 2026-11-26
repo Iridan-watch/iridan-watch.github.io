@@ -1,11 +1,242 @@
 {
- "updated_at": "2026-11-27 02:08",
+ "updated_at": "2026-11-27 05:30",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 1286,
- "comments_collected": 36024,
- "comments_checked": 35999,
+ "videos_tracked": 1305,
+ "comments_collected": 36986,
+ "comments_checked": 36986,
  "videos_flagged": [
+  {
+   "video_id": "7GDwukKWzv4",
+   "title": "\"덕질하다 결국 일 냈다\"...리센느 곡, '60인조 악단' 소환한 대학생｜ TJB 대전·세종·충남뉴스",
+   "channel": "TJB NEWS",
+   "toxic": 10,
+   "total": 178,
+   "ratio": 0.0562,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=7GDwukKWzv4"
+  },
+  {
+   "video_id": "A5vjepDsKrU",
+   "title": "\"한국인들 소름 돋습니다\" 리센느 미나미 역대급 서사에 전세계 난리나자 일본 방송 분석하다 경악한 이유 | 해외반응",
+   "channel": "코리아 서윤",
+   "toxic": 5,
+   "total": 34,
+   "ratio": 0.1471,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=A5vjepDsKrU"
+  },
+  {
+   "video_id": "DZABvVAn_PA",
+   "title": "리센느 모델 쓴 MLB 회사, 11월 성적표 몇 위? #리센느 #MLB",
+   "channel": "인주랑",
+   "toxic": 5,
+   "total": 37,
+   "ratio": 0.1351,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=DZABvVAn_PA"
+  },
+  {
+   "video_id": "J1wUN27ajOk",
+   "title": "리센느 원이, 미나미, 리브를 체포해야 되는 이유 #리센느 #rescene #원이 #미나미 #리브",
+   "channel": "RE:센느컷",
+   "toxic": 4,
+   "total": 75,
+   "ratio": 0.0533,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=J1wUN27ajOk"
+  },
+  {
+   "video_id": "JQvzEC0sRg0",
+   "title": "리브도 한숨 쉬는 어려운 With 녹음 #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
+   "channel": "뮤드숏",
+   "toxic": 8,
+   "total": 69,
+   "ratio": 0.1159,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=JQvzEC0sRg0"
+  },
+  {
+   "video_id": "NVSFP09LsQw",
+   "title": "다시 한번 보고 싶다는 찐경은 근황 #리센느",
+   "channel": "짧은 이슈",
+   "toxic": 16,
+   "total": 174,
+   "ratio": 0.092,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=NVSFP09LsQw"
+  },
+  {
+   "video_id": "VKeYFDpX6xM",
+   "title": "리센느 5명 칼군무, AI가 채점해 봤더니…",
+   "channel": "덕심저장소",
+   "toxic": 10,
+   "total": 97,
+   "ratio": 0.1031,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=VKeYFDpX6xM"
+  },
+  {
+   "video_id": "X-snr-HSzAk",
+   "title": "오히려 독일 수도 있다는 리센느 미나미",
+   "channel": "보리차",
+   "toxic": 15,
+   "total": 197,
+   "ratio": 0.0761,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=X-snr-HSzAk"
+  },
+  {
+   "video_id": "YtVjkgHdhc4",
+   "title": "데뷔 전 리브 진경은 시절 영상! 댄스 버스킹 'fromis_9 - DM' #리센느 #RESCENE",
+   "channel": "쩔지",
+   "toxic": 5,
+   "total": 99,
+   "ratio": 0.0505,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=YtVjkgHdhc4"
+  },
+  {
+   "video_id": "bUgCQ7wMp3I",
+   "title": "정신상태 아니라던 라이브 팬한테 실수하고 수습중ㅋㅋㅋ",
+   "channel": "리센느 입덕저장소",
+   "toxic": 3,
+   "total": 43,
+   "ratio": 0.0698,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=bUgCQ7wMp3I"
+  },
+  {
+   "video_id": "cCNR7oQB3r4",
+   "title": "리센느 데뷔초 뮤직뱅크와 현재의 차이점",
+   "channel": "돌픽갤러리",
+   "toxic": 7,
+   "total": 124,
+   "ratio": 0.0565,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=cCNR7oQB3r4"
+  },
+  {
+   "video_id": "eNkFPBrG6js",
+   "title": "아미 걸그룹 리센느",
+   "channel": "알럽셀럽",
+   "toxic": 50,
+   "total": 207,
+   "ratio": 0.2415,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=eNkFPBrG6js"
+  },
+  {
+   "video_id": "jrkmBl-c9wY",
+   "title": "첫 단콘 가격 뜨자마자 반응 둘로 갈린 리센느",
+   "channel": "케이팝콘",
+   "toxic": 8,
+   "total": 68,
+   "ratio": 0.1176,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=jrkmBl-c9wY"
+  },
+  {
+   "video_id": "mXpOMF4a6UM",
+   "title": "입국길에서 드러나는 원이의 리더 모먼트 #리센느",
+   "channel": "리센느를좋아하세요?",
+   "toxic": 7,
+   "total": 138,
+   "ratio": 0.0507,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=mXpOMF4a6UM"
+  },
+  {
+   "video_id": "nXIsDi-d7JQ",
+   "title": "모두가 기다린 라이브 7시간 만에 170만+ #리센느",
+   "channel": "리센느좋아",
+   "toxic": 3,
+   "total": 43,
+   "ratio": 0.0698,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=nXIsDi-d7JQ"
+  },
+  {
+   "video_id": "r1jHLNx39jY",
+   "title": "5년 전에도 끼 넘쳤던 슈퍼스타 미나미! #RESCENE #리센느 #미남이",
+   "channel": "쩔지",
+   "toxic": 4,
+   "total": 16,
+   "ratio": 0.25,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=r1jHLNx39jY"
+  },
+  {
+   "video_id": "t41UiG7l4LY",
+   "title": "리마인 체포하러온 언니즈 (LIV Focus) #리센느 #RESCENE #Shorts",
+   "channel": "이불밖은위험해",
+   "toxic": 3,
+   "total": 15,
+   "ratio": 0.2,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=t41UiG7l4LY"
+  },
+  {
+   "video_id": "vySCW5gSwd0",
+   "title": "박진영 옆에서 WET 챌린지 춘 갸루의 정체?! #리센느 #미나미 #박진영",
+   "channel": "인주랑",
+   "toxic": 4,
+   "total": 50,
+   "ratio": 0.08,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=vySCW5gSwd0"
+  },
+  {
+   "video_id": "xym55bsQ_80",
+   "title": "메이, 원이의 'SUN KISS' 챌린지 #RESCENE #리센느",
+   "channel": "쩔지",
+   "toxic": 11,
+   "total": 66,
+   "ratio": 0.1667,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=xym55bsQ_80"
+  },
+  {
+   "video_id": "y4Em3wRTerg",
+   "title": "리센느 백화요란 AI 칼군무 분석 #리센느 #칼군무",
+   "channel": "아이돌판독기",
+   "toxic": 21,
+   "total": 146,
+   "ratio": 0.1438,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=y4Em3wRTerg"
+  },
+  {
+   "video_id": "z-jJn8J7gYI",
+   "title": "Looks Can Kill 추는 막내즈 #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
+   "channel": "뮤드숏",
+   "toxic": 3,
+   "total": 32,
+   "ratio": 0.0938,
+   "submitted": false,
+   "last": "2026-11-27 05:30",
+   "link": "https://www.youtube.com/watch?v=z-jJn8J7gYI"
+  },
   {
    "video_id": "-7wzP7udupw",
    "title": "with때매 자신감을 잃은 리센느 멤버들을 디렉팅하는 혜수이사",
@@ -29,28 +260,6 @@
    "link": "https://www.youtube.com/watch?v=0O7kHF35VUk"
   },
   {
-   "video_id": "7GDwukKWzv4",
-   "title": "\"덕질하다 결국 일 냈다\"...리센느 곡, '60인조 악단' 소환한 대학생｜ TJB 대전·세종·충남뉴스",
-   "channel": "TJB NEWS",
-   "toxic": 10,
-   "total": 177,
-   "ratio": 0.0565,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=7GDwukKWzv4"
-  },
-  {
-   "video_id": "A5vjepDsKrU",
-   "title": "\"한국인들 소름 돋습니다\" 리센느 미나미 역대급 서사에 전세계 난리나자 일본 방송 분석하다 경악한 이유 | 해외반응",
-   "channel": "코리아 서윤",
-   "toxic": 5,
-   "total": 33,
-   "ratio": 0.1515,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=A5vjepDsKrU"
-  },
-  {
    "video_id": "CQsYuNHQEl8",
    "title": "쪼개보니 극악 난이도였던 리센느 WITH 녹음 현장 #리센느 #RESCENE",
    "channel": "핫큐",
@@ -62,28 +271,6 @@
    "link": "https://www.youtube.com/watch?v=CQsYuNHQEl8"
   },
   {
-   "video_id": "DZABvVAn_PA",
-   "title": "리센느 모델 쓴 MLB 회사, 11월 성적표 몇 위? #리센느 #MLB",
-   "channel": "인주랑",
-   "toxic": 5,
-   "total": 36,
-   "ratio": 0.1389,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=DZABvVAn_PA"
-  },
-  {
-   "video_id": "NVSFP09LsQw",
-   "title": "다시 한번 보고 싶다는 찐경은 근황 #리센느",
-   "channel": "짧은 이슈",
-   "toxic": 16,
-   "total": 173,
-   "ratio": 0.0925,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=NVSFP09LsQw"
-  },
-  {
    "video_id": "R58OJdjJb3o",
    "title": "귀여운 컨셉도 찰떡, 리센느의 체포하겠어 챌린지 #리센느 #RESCENE #체포하겠어 #멜론스테이지99 #Shorts",
    "channel": "enterpocket",
@@ -93,28 +280,6 @@
    "submitted": false,
    "last": "2026-11-27 02:08",
    "link": "https://www.youtube.com/watch?v=R58OJdjJb3o"
-  },
-  {
-   "video_id": "VKeYFDpX6xM",
-   "title": "리센느 5명 칼군무, AI가 채점해 봤더니…",
-   "channel": "덕심저장소",
-   "toxic": 9,
-   "total": 95,
-   "ratio": 0.0947,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=VKeYFDpX6xM"
-  },
-  {
-   "video_id": "X-snr-HSzAk",
-   "title": "오히려 독일 수도 있다는 리센느 미나미",
-   "channel": "보리차",
-   "toxic": 15,
-   "total": 196,
-   "ratio": 0.0765,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=X-snr-HSzAk"
   },
   {
    "video_id": "bh1NORtEb64",
@@ -139,28 +304,6 @@
    "link": "https://www.youtube.com/watch?v=c1yyXZiVhXw"
   },
   {
-   "video_id": "cCNR7oQB3r4",
-   "title": "리센느 데뷔초 뮤직뱅크와 현재의 차이점",
-   "channel": "돌픽갤러리",
-   "toxic": 7,
-   "total": 122,
-   "ratio": 0.0574,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=cCNR7oQB3r4"
-  },
-  {
-   "video_id": "eNkFPBrG6js",
-   "title": "아미 걸그룹 리센느",
-   "channel": "알럽셀럽",
-   "toxic": 48,
-   "total": 199,
-   "ratio": 0.2412,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=eNkFPBrG6js"
-  },
-  {
    "video_id": "iCwfIpCTATc",
    "title": "리센느 빵 470만 개, 두쫀쿠도 이겼다",
    "channel": "리센느의두번째질문",
@@ -170,17 +313,6 @@
    "submitted": false,
    "last": "2026-11-27 02:08",
    "link": "https://www.youtube.com/watch?v=iCwfIpCTATc"
-  },
-  {
-   "video_id": "jrkmBl-c9wY",
-   "title": "첫 단콘 가격 뜨자마자 반응 둘로 갈린 리센느",
-   "channel": "케이팝콘",
-   "toxic": 7,
-   "total": 31,
-   "ratio": 0.2258,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=jrkmBl-c9wY"
   },
   {
    "video_id": "mAuvFlfS9y8",
@@ -194,17 +326,6 @@
    "link": "https://www.youtube.com/watch?v=mAuvFlfS9y8"
   },
   {
-   "video_id": "nXIsDi-d7JQ",
-   "title": "모두가 기다린 라이브 7시간 만에 170만+ #리센느",
-   "channel": "리센느좋아",
-   "toxic": 3,
-   "total": 41,
-   "ratio": 0.0732,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=nXIsDi-d7JQ"
-  },
-  {
    "video_id": "nt7_0ZkrTO8",
    "title": "'WITH' 녹음하다가 한숨 쉬는 리브",
    "channel": "꾸센느",
@@ -216,17 +337,6 @@
    "link": "https://www.youtube.com/watch?v=nt7_0ZkrTO8"
   },
   {
-   "video_id": "t41UiG7l4LY",
-   "title": "리마인 체포하러온 언니즈 (LIV Focus) #리센느 #RESCENE #Shorts",
-   "channel": "이불밖은위험해",
-   "toxic": 3,
-   "total": 14,
-   "ratio": 0.2143,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=t41UiG7l4LY"
-  },
-  {
    "video_id": "t_FO4s0AY8E",
    "title": "의미없는 상이라고 리센느 MAMA 수상 깎아내리다 '10년 명단' 보고 역풍 맞은 이유",
    "channel": "탄픽",
@@ -236,28 +346,6 @@
    "submitted": true,
    "last": "2026-11-27 02:08",
    "link": "https://www.youtube.com/watch?v=t_FO4s0AY8E"
-  },
-  {
-   "video_id": "xym55bsQ_80",
-   "title": "메이, 원이의 'SUN KISS' 챌린지 #RESCENE #리센느",
-   "channel": "쩔지",
-   "toxic": 11,
-   "total": 63,
-   "ratio": 0.1746,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=xym55bsQ_80"
-  },
-  {
-   "video_id": "y4Em3wRTerg",
-   "title": "리센느 백화요란 AI 칼군무 분석 #리센느 #칼군무",
-   "channel": "아이돌판독기",
-   "toxic": 20,
-   "total": 144,
-   "ratio": 0.1389,
-   "submitted": false,
-   "last": "2026-11-27 02:08",
-   "link": "https://www.youtube.com/watch?v=y4Em3wRTerg"
   },
   {
    "video_id": "CT3AvmkzeVE",
@@ -315,28 +403,6 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg"
   },
   {
-   "video_id": "mXpOMF4a6UM",
-   "title": "입국길에서 드러나는 원이의 리더 모먼트 #리센느",
-   "channel": "리센느를좋아하세요?",
-   "toxic": 7,
-   "total": 137,
-   "ratio": 0.0511,
-   "submitted": false,
-   "last": "2026-11-26 21:47",
-   "link": "https://www.youtube.com/watch?v=mXpOMF4a6UM"
-  },
-  {
-   "video_id": "vySCW5gSwd0",
-   "title": "박진영 옆에서 WET 챌린지 춘 갸루의 정체?! #리센느 #미나미 #박진영",
-   "channel": "인주랑",
-   "toxic": 4,
-   "total": 49,
-   "ratio": 0.0816,
-   "submitted": false,
-   "last": "2026-11-26 21:47",
-   "link": "https://www.youtube.com/watch?v=vySCW5gSwd0"
-  },
-  {
    "video_id": "F6Jq1Ei-f8Q",
    "title": "[전참시] 고향 거제 방문한 선민&영우 삼촌들 휘어잡는 원이ㅋㅋ MBC261121방송 #전지적참견시점 #원이 #리센느 #이선민 #유영우",
    "channel": "픽잇 :Pick it",
@@ -357,17 +423,6 @@
    "submitted": false,
    "last": "2026-11-26 20:37",
    "link": "https://www.youtube.com/watch?v=FhixK5x1xuY"
-  },
-  {
-   "video_id": "JQvzEC0sRg0",
-   "title": "리브도 한숨 쉬는 어려운 With 녹음 #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
-   "channel": "뮤드숏",
-   "toxic": 8,
-   "total": 68,
-   "ratio": 0.1176,
-   "submitted": false,
-   "last": "2026-11-26 20:37",
-   "link": "https://www.youtube.com/watch?v=JQvzEC0sRg0"
   },
   {
    "video_id": "SOIjaeC46Dg",
@@ -401,17 +456,6 @@
    "submitted": false,
    "last": "2026-11-26 20:37",
    "link": "https://www.youtube.com/watch?v=qu1qE_Z0jdk"
-  },
-  {
-   "video_id": "r1jHLNx39jY",
-   "title": "5년 전에도 끼 넘쳤던 슈퍼스타 미나미! #RESCENE #리센느 #미남이",
-   "channel": "쩔지",
-   "toxic": 4,
-   "total": 15,
-   "ratio": 0.2667,
-   "submitted": false,
-   "last": "2026-11-26 20:37",
-   "link": "https://www.youtube.com/watch?v=r1jHLNx39jY"
   },
   {
    "video_id": "9d2w8siinzU",
@@ -456,17 +500,6 @@
    "submitted": false,
    "last": "2026-11-26 05:38",
    "link": "https://www.youtube.com/watch?v=giRO0O1QqmI"
-  },
-  {
-   "video_id": "z-jJn8J7gYI",
-   "title": "Looks Can Kill 추는 막내즈 #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
-   "channel": "뮤드숏",
-   "toxic": 3,
-   "total": 30,
-   "ratio": 0.1,
-   "submitted": false,
-   "last": "2026-11-26 05:38",
-   "link": "https://www.youtube.com/watch?v=z-jJn8J7gYI"
   },
   {
    "video_id": "-flKkg1yAOc",
@@ -586,13 +619,13 @@
  "themes_7d": [
   {
    "theme": "팬덤 비하",
-   "count": 81,
-   "indirect": 46
+   "count": 88,
+   "indirect": 51
   },
   {
    "theme": "외모 조롱",
-   "count": 69,
-   "indirect": 36
+   "count": 75,
+   "indirect": 40
   },
   {
    "theme": "원이 춤 실력",
@@ -601,12 +634,12 @@
   },
   {
    "theme": "태도 비하",
-   "count": 50,
-   "indirect": 29
+   "count": 52,
+   "indirect": 30
   },
   {
    "theme": "노래 실력 부족",
-   "count": 46,
+   "count": 47,
    "indirect": 22
   },
   {
@@ -630,14 +663,14 @@
    "indirect": 27
   },
   {
+   "theme": "춤 실력 조롱",
+   "count": 33,
+   "indirect": 23
+  },
+  {
    "theme": "원이 보컬",
    "count": 33,
    "indirect": 18
-  },
-  {
-   "theme": "춤 실력 조롱",
-   "count": 31,
-   "indirect": 21
   },
   {
    "theme": "미나미 외 멤버 실력",
@@ -648,13 +681,13 @@
  "themes_all": [
   {
    "theme": "팬덤 비하",
-   "count": 81,
-   "indirect": 46
+   "count": 88,
+   "indirect": 51
   },
   {
    "theme": "외모 조롱",
-   "count": 69,
-   "indirect": 36
+   "count": 75,
+   "indirect": 40
   },
   {
    "theme": "원이 춤 실력",
@@ -663,12 +696,12 @@
   },
   {
    "theme": "태도 비하",
-   "count": 50,
-   "indirect": 29
+   "count": 52,
+   "indirect": 30
   },
   {
    "theme": "노래 실력 부족",
-   "count": 46,
+   "count": 47,
    "indirect": 22
   },
   {
@@ -692,14 +725,14 @@
    "indirect": 27
   },
   {
+   "theme": "춤 실력 조롱",
+   "count": 33,
+   "indirect": 23
+  },
+  {
    "theme": "원이 보컬",
    "count": 33,
    "indirect": 18
-  },
-  {
-   "theme": "춤 실력 조롱",
-   "count": 31,
-   "indirect": 21
   },
   {
    "theme": "미나미 외 멤버 실력",
@@ -869,6 +902,66 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg"
   },
   {
+   "id": "Ugys1KiClErd2GvVjHd4AaABAg",
+   "vid": "yyYjUC6XFO8",
+   "deleted": false,
+   "posted": "2026-11-27 04:07",
+   "found": "2026-11-27 05:30",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "원이 외모",
+   "artist": "원이",
+   "implied": "원이가 제일 실력이 떨어지고 얼굴이 두껍다",
+   "reason": "실력 단정 비하와 '뚜꺼운 면상' 외모 비하가 있다.",
+   "text": "원이가 제일 실력 딸려 ㅋㅋㅋ\n뚜꺼운 면상으로 극뽘",
+   "video": "261124 리센느 멜론 스테이지99 언니즈 체포하겠어",
+   "channel": "리브의뿌리를찾아서",
+   "link": "https://www.youtube.com/watch?v=yyYjUC6XFO8&lc=Ugys1KiClErd2GvVjHd4AaABAg"
+  },
+  {
+   "id": "UgyV3z4mJhnuXpnYg_B4AaABAg",
+   "vid": "jrkmBl-c9wY",
+   "deleted": false,
+   "posted": "2026-11-27 03:42",
+   "found": "2026-11-27 05:30",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬덤은 중년 남성 위주이며 한심하다",
+   "reason": "팬덤을 '전립선 비대' '센포티' 등으로 조롱하며 아재 팬덤 프레임을 씌운다.",
+   "text": "코어팬 뜻 모르니?? \n코어가 틀내나는 틀마인인데??\n존나 비싸다고 하겠지ㅋㅋㅋ\n왜 체조간다던 자아랑 전립선만 비대한\n스윗해지고 싶은 센포티 틀마인 어디감??ㅋㅋ",
+   "video": "첫 단콘 가격 뜨자마자 반응 둘로 갈린 리센느",
+   "channel": "케이팝콘",
+   "link": "https://www.youtube.com/watch?v=jrkmBl-c9wY&lc=UgyV3z4mJhnuXpnYg_B4AaABAg"
+  },
+  {
+   "id": "UgwEsMu8pDSsWvC3nTZ4AaABAg",
+   "vid": "eNkFPBrG6js",
+   "deleted": false,
+   "posted": "2026-11-27 03:34",
+   "found": "2026-11-27 05:30",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "노래 실력 부족",
+   "artist": "리센느",
+   "implied": "리센느는 춤도 못 추고 노래는 초보 수준으로 더 심하다",
+   "reason": "노래가 초중고 초보 수준이고 사쿠라보다 못하다며 실력을 단정 비하.",
+   "text": "백번 양보해서 춤 못춘다? 그래 연습열심히하면 되겟지 근데 노래는 저것보다 더 가관임 그냥 초중고 노래 처음하는수준임 진짜 사쿠라보다 못하는부류는 난생처음봄",
+   "video": "아미 걸그룹 리센느",
+   "channel": "알럽셀럽",
+   "link": "https://www.youtube.com/watch?v=eNkFPBrG6js&lc=UgwEsMu8pDSsWvC3nTZ4AaABAg"
+  },
+  {
    "id": "UgzfRCn_SC3DjiPpNGN4AaABAg.AdfvNgf0pnIAdg5jc59sQh",
    "vid": "eNkFPBrG6js",
    "deleted": false,
@@ -891,7 +984,7 @@
   {
    "id": "UgxYfw2XR201Di1nwad4AaABAg",
    "vid": "V_-6I3HNcnE",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-27 01:53",
    "found": "2026-11-27 02:08",
    "confidence": "확실",
@@ -911,7 +1004,7 @@
   {
    "id": "UgziBpVlzCRJeT36dSZ4AaABAg.AdfubxFqypGAdg0QkqVK9B",
    "vid": "jrkmBl-c9wY",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-27 01:13",
    "found": "2026-11-27 02:08",
    "confidence": "확실",
@@ -1027,6 +1120,26 @@
    "video": "아미 걸그룹 리센느",
    "channel": "알럽셀럽",
    "link": "https://www.youtube.com/watch?v=eNkFPBrG6js&lc=Ugw5pkjXC55ybARQHil4AaABAg.AdfYTZ0mV_8Adfv5TbCuJG"
+  },
+  {
+   "id": "UgxDOtL2TxnFae-78et4AaABAg.AdfRfgNDX7WAdfrNTmmNyM",
+   "vid": "4Cg5BNNAbUk",
+   "deleted": false,
+   "posted": "2026-11-26 23:46",
+   "found": "2026-11-27 02:08",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬들은 늘 맹목적으로 감싸는 수호 부대다",
+   "reason": "팬덤을 수호 부대로 조롱하며 콘서트 가격 논란과 엮음.",
+   "text": "다른 얘들 콘서트 얼마 나오면 급도 안 되는데 비싸고 다른 유명인이랑 비교질 하더만 또 리센느는 수호 부대 출동 하네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+   "video": "실시간 난리난 리센느 근황",
+   "channel": "짤잉 Zzal ing",
+   "link": "https://www.youtube.com/watch?v=4Cg5BNNAbUk&lc=UgxDOtL2TxnFae-78et4AaABAg.AdfRfgNDX7WAdfrNTmmNyM"
   },
   {
    "id": "UgwHbSEsbQ5DMrx5-NB4AaABAg",
@@ -5009,6 +5122,46 @@
    "link": "https://www.youtube.com/watch?v=qu1qE_Z0jdk&lc=Ugy-QBVI239Ljol-oW94AaABAg"
   },
   {
+   "id": "UgzfRCn_SC3DjiPpNGN4AaABAg.AdfvNgf0pnIAdgJpR35CKr",
+   "vid": "eNkFPBrG6js",
+   "deleted": false,
+   "posted": "2026-11-27 04:03",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느는 영포티 팬덤 때문에 욕먹고 원이 춤은 뚝딱거리는데 팬들이 감싼다",
+   "reason": "영포티 팬덤 프레임과 원이 춤 실력 부족 여론을 팬덤의 이중잣대 비판 형식으로 확산한다.",
+   "text": "@(계정) 아이돌이라는게 좋다하다보면 시간이 지나 단점이 하나둘씩 보이게 되고 결국 그 단점이 안보이는 그룹으로 넘어감  대중 픽으로 커진 그룹은 안그렇다 이게 아님 다 그럼 \n\n나도 그렇지만 리센느가 싫거나 좋게 보지 않은 사람들 중 당연 그 이유를 소위 영포티라고 부르는 사람들 때문임 아무리 전국 남녀노소 선호도 최상위라고 해도.  댓글 봐보셈 뭐만하면 자연재해, 너도 이제 뜬다 이러고 다니는데 좋게 보겠슴? 적어도 젊은 사람들은 아이돌을 더 많이 좋아해봤고 지금 나오는 아이돌 생태계에 대해서 잘 아니 젊은 덕후를 모아라고 하는거임.. 영포티 털고 젊은 애들 모아 라는말이 안나오게 할려면 팬들이 잘해야하는데 잘하는중임? 적어도 난 일부 리마인들은 안그런다고 봄  \n\n앨범은 판매량도 중요하지만 판매금액도 봅니다 \n\n원이 춤관련 영상들 보면 댓글들 중 '원이가 뚝딱거린다' 이런 식의 댓글 많이 봤을꺼임 항상 그런 댓글엔 그게 원이의 시그니처 라는 식으로 댓이 달림 아님 스케쥴이 많으니 춤이 뚝딱거릴수도 있다 등등 그러면서 다른 아이돌 뚝딱거리는 멤버는 죽일듯이 물면서 원이는 용서?  멤버들의 문제점을 말하는 댓을 보기만 하면 득달같이 아니다 이러면서 쉴드 침 이게 기싸움이 아니고 뭐임 \n\n아이돌 이미지는 팬들이 만들어가는겁니다 팬들 이미지가 안좋으면 아이돌 이미지도 덩달아 안좋아지는거에요  지금이라도 좀 알았음 좋켓넹ㅇ....",
+   "video": "아미 걸그룹 리센느",
+   "channel": "알럽셀럽",
+   "link": "https://www.youtube.com/watch?v=eNkFPBrG6js&lc=UgzfRCn_SC3DjiPpNGN4AaABAg.AdfvNgf0pnIAdgJpR35CKr"
+  },
+  {
+   "id": "Ugz4Buppu4fv-lpdMJl4AaABAg",
+   "vid": "_yVldwFd4yk",
+   "deleted": false,
+   "posted": "2026-11-27 03:49",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "외모 조롱",
+   "artist": "리센느",
+   "implied": "제나는 돼지처럼 많이 먹는다",
+   "reason": "먹방을 보고 멤버를 '돼지'라고 부르며 체형·식습관을 조롱한다.",
+   "text": "돼지구나…",
+   "video": "방심하면 놓치는 제나 키위 먹방 횟수 #리센느 #rescene #제나",
+   "channel": "RE:센느컷",
+   "link": "https://www.youtube.com/watch?v=_yVldwFd4yk&lc=Ugz4Buppu4fv-lpdMJl4AaABAg"
+  },
+  {
    "id": "UgxFcII8ROs8XsdDgEB4AaABAg",
    "vid": "RJO4m0SI4Gw",
    "deleted": false,
@@ -5031,7 +5184,7 @@
   {
    "id": "UgziBpVlzCRJeT36dSZ4AaABAg.AdfubxFqypGAdg07XKoYGo",
    "vid": "jrkmBl-c9wY",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-27 01:11",
    "found": "2026-11-27 02:08",
    "confidence": "의심",
@@ -5051,7 +5204,7 @@
   {
    "id": "Ugy4beg3tH28cxNws_p4AaABAg.Adfu_ElMeXXAdg-MZ8zq0N",
    "vid": "jrkmBl-c9wY",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-27 01:04",
    "found": "2026-11-27 02:08",
    "confidence": "의심",
@@ -5071,7 +5224,7 @@
   {
    "id": "Ugy4beg3tH28cxNws_p4AaABAg.Adfu_ElMeXXAdfyV98q1bu",
    "vid": "jrkmBl-c9wY",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-27 00:48",
    "found": "2026-11-27 02:08",
    "confidence": "의심",
@@ -5087,6 +5240,26 @@
    "video": "첫 단콘 가격 뜨자마자 반응 둘로 갈린 리센느",
    "channel": "케이팝콘",
    "link": "https://www.youtube.com/watch?v=jrkmBl-c9wY&lc=Ugy4beg3tH28cxNws_p4AaABAg.Adfu_ElMeXXAdfyV98q1bu"
+  },
+  {
+   "id": "UgwSmtSOjM_H7mFVYRF4AaABAg.AdfJblASWQMAdfrjoRhT95",
+   "vid": "J1wUN27ajOk",
+   "deleted": false,
+   "posted": "2026-11-26 23:49",
+   "found": "2026-11-27 02:08",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "실력비하",
+   "target": "멤버",
+   "theme": "원이 보컬/실력",
+   "artist": "리센느",
+   "implied": "원이는 춤과 노래를 다 못한다는 말에 동조한다",
+   "reason": "원이가 춤과 노래를 다 못한다는 부모 댓글에 '잘걸렸다'라고 맞장구쳐 실력 비하를 거든다.",
+   "text": "잘걸렸다",
+   "video": "리센느 원이, 미나미, 리브를 체포해야 되는 이유 #리센느 #rescene #원이 #미나미 #리브",
+   "channel": "RE:센느컷",
+   "link": "https://www.youtube.com/watch?v=J1wUN27ajOk&lc=UgwSmtSOjM_H7mFVYRF4AaABAg.AdfJblASWQMAdfrjoRhT95"
   },
   {
    "id": "UgztIBYNC95m9-amy794AaABAg",
@@ -6969,6 +7142,206 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg.AdYVpCvniBQAdYZO-9dGPl"
   },
   {
+   "id": "UgzgagcfV_vv4SW0Mq94AaABAg",
+   "vid": "y4Em3wRTerg",
+   "deleted": false,
+   "posted": "2026-11-27 05:20",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "그룹 전체",
+   "theme": "춤 실력 조롱",
+   "artist": "리센느",
+   "implied": "리센느의 칼군무는 분석 없이 보이지 않고, 하츠투하츠가 훨씬 잘 맞는다",
+   "reason": "AI 분석을 폄하하며 타 그룹을 들어 리센느 군무가 덜 맞는다는 인상을 줌(의심, 확인 필요).",
+   "text": "저런 거 안해도 칼군무는 눈으로 보면 딱 보인다 하츠투하츠 봐라 딱딱 들어맞음",
+   "video": "리센느 백화요란 AI 칼군무 분석 #리센느 #칼군무",
+   "channel": "아이돌판독기",
+   "link": "https://www.youtube.com/watch?v=y4Em3wRTerg&lc=UgzgagcfV_vv4SW0Mq94AaABAg"
+  },
+  {
+   "id": "UgyEcobL_0ORGbisUdR4AaABAg",
+   "vid": "7_TsjxHXw68",
+   "deleted": false,
+   "posted": "2026-11-27 04:50",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬덤은 아재들이다",
+   "reason": "단콘 영상에서 '아재들'이라는 웃음 섞인 말로 아재 팬덤 프레임을 씌울 수 있어 사람 확인이 필요하다.",
+   "text": "아재들은 준비됐다😂😂😂",
+   "video": "리센느 첫 단콘 티켓값 비싸다? 팬들은 예매가 더 걱정",
+   "channel": "발발이",
+   "link": "https://www.youtube.com/watch?v=7_TsjxHXw68&lc=UgyEcobL_0ORGbisUdR4AaABAg"
+  },
+  {
+   "id": "UgyxSgMdr8ibsz0r_BV4AaABAg",
+   "vid": "VKeYFDpX6xM",
+   "deleted": false,
+   "posted": "2026-11-27 04:12",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "춤 실력 조롱",
+   "artist": "리센느",
+   "implied": "리센느 칼군무가 별로다",
+   "reason": "근거 없이 칼군무를 부정하는 짧은 폄하다.",
+   "text": "칼군무는 좀...",
+   "video": "리센느 5명 칼군무, AI가 채점해 봤더니…",
+   "channel": "덕심저장소",
+   "link": "https://www.youtube.com/watch?v=VKeYFDpX6xM&lc=UgyxSgMdr8ibsz0r_BV4AaABAg"
+  },
+  {
+   "id": "UgxsnexKXW4BAxYjN9h4AaABAg",
+   "vid": "merUgL1kLgI",
+   "deleted": false,
+   "posted": "2026-11-27 04:07",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "도미노 피자는 어린 자녀와 부모가 사는 것이다",
+   "reason": "팬덤이 13세 이하와 35세 이상 부모뿐이라는 식의 연령 프레임 비하다.",
+   "text": "13세이하 자녀가 35세 이상 부모에게 피자 사달라고 조르면 돈 다내고 사주니깐",
+   "video": "포카 5장 다 주고도 50대 불매 맞은 도미노 #리센느",
+   "channel": "하마트",
+   "link": "https://www.youtube.com/watch?v=merUgL1kLgI&lc=UgxsnexKXW4BAxYjN9h4AaABAg"
+  },
+  {
+   "id": "Ugy70-ZpGHHsk4T5imF4AaABAg.AdfTiuYCIxEAdgJs4Xo-z-",
+   "vid": "dxEP6uFpwM4",
+   "deleted": false,
+   "posted": "2026-11-27 04:03",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬들은 보상 심리가 있고 유명세는 납득하기 힘들다",
+   "reason": "팬덤을 보상 심리로 덕질한다고 깎아내리고 인기를 납득 못 한다고 비꼰다.",
+   "text": "자기들 연예인 덕질한거에 대한 뭐 보상 심리 같은 게 있나봐요 ㅋㅋ 워낙 성장 경로가 달라서 유명세가 납득하기 힘든 모양",
+   "video": "세계관 확장 말 안되는 리센느 근황",
+   "channel": "짤잉 Zzal ing",
+   "link": "https://www.youtube.com/watch?v=dxEP6uFpwM4&lc=Ugy70-ZpGHHsk4T5imF4AaABAg.AdfTiuYCIxEAdgJs4Xo-z-"
+  },
+  {
+   "id": "UgzCbHS0U8x1z7Idypt4AaABAg",
+   "vid": "bUgCQ7wMp3I",
+   "deleted": false,
+   "posted": "2026-11-27 04:02",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "그룹 전체",
+   "theme": "라이브 논란 기정사실화",
+   "artist": "리센느",
+   "implied": "원이가 라이브 실수한 멤버를 혼냈을 것이다",
+   "reason": "라이브 실수를 기정사실화하고 '정신차리라고' 혼났을 거라며 조롱하는 뉘앙스다.",
+   "text": "끝나고 원이한테 혼났으려나 정신차리라고 ㅋㅋㅋ  😅😅",
+   "video": "정신상태 아니라던 라이브 팬한테 실수하고 수습중ㅋㅋㅋ",
+   "channel": "리센느 입덕저장소",
+   "link": "https://www.youtube.com/watch?v=bUgCQ7wMp3I&lc=UgzCbHS0U8x1z7Idypt4AaABAg"
+  },
+  {
+   "id": "UgyVMMNiIqJGlItsaBV4AaABAg",
+   "vid": "fGAGKRYPth0",
+   "deleted": false,
+   "posted": "2026-11-27 03:21",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "제나 외모·재능 비하",
+   "artist": "제나",
+   "implied": "제나는 살이 빠지기 전에는 같은 표정도 덜 예뻤다",
+   "reason": "'살빠지니깐 결이 다르다, 아쉽다'는 말로 이전 모습을 깎아내리는 외모 평가.",
+   "text": "리마인이지만 제나는 살빠지니깐 같은 표정이라도 결이 다르게 보이네요....아쉽네요",
+   "video": "[리센느] 리브 제나 난 이쁘게 태어난 곤데~ #리센느 #원이 #미나미 #제나 #리브 #메이",
+   "channel": "리센느입니다",
+   "link": "https://www.youtube.com/watch?v=fGAGKRYPth0&lc=UgyVMMNiIqJGlItsaBV4AaABAg"
+  },
+  {
+   "id": "UgwGD9mSwtuqePbK4xx4AaABAg",
+   "vid": "pSTAsOJxHDc",
+   "deleted": false,
+   "posted": "2026-11-27 03:13",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "혐오/차별",
+   "target": "멤버",
+   "theme": "미나미 국적/정체성",
+   "artist": "미나미",
+   "implied": "미나미는 쓰는 언어에 따라 정체성이 오락가락한다",
+   "reason": "미나미의 국적·정체성 답변을 문제 삼으며 정체성이 일관되지 않다고 단정하는 차별적 시선이다.",
+   "text": "재일교포 아줌마가 한국사람이냐고 묻는데 미나미는 왜 그렇다고 대답하는겨. 그리고, 그렇다고 대답하면 교포 아줌마도 한국어가 나오는 게 아니라, 일본어로 한국사람이라고 말하는 걸 보니까, 국적 불문하고 평소에 쓰는 언어로 사람의 정체성이 왔다갔다 하는 게 맞다.",
+   "video": "결국 특이점 와버린 리센느 미나미 #원이 #메이 #제나 #미나미 #리센느 #rescene #안원잘부",
+   "channel": "IDOLCATCHUP",
+   "link": "https://www.youtube.com/watch?v=pSTAsOJxHDc&lc=UgwGD9mSwtuqePbK4xx4AaABAg"
+  },
+  {
+   "id": "Ugw-OT5QNOvkaJpsxQx4AaABAg",
+   "vid": "fFFVL9bpt1M",
+   "deleted": false,
+   "posted": "2026-11-27 02:39",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "태도 비하",
+   "artist": "리센느",
+   "implied": "제나는 평소 행실 때문에 욕먹을 만했다",
+   "reason": "별명으로 놀리며 제나가 비난받을 업보를 쌓았다고 조롱함.",
+   "text": "까엉이가 니가 뭔데? 소릴 들을 업보를 한번 쌓아놨었네 ㅋㅋㅋㅋ",
+   "video": "흥분한 제나 말리는 미나미 #rescene #리센느",
+   "channel": "잔채류",
+   "link": "https://www.youtube.com/watch?v=fFFVL9bpt1M&lc=Ugw-OT5QNOvkaJpsxQx4AaABAg"
+  },
+  {
+   "id": "UgzItI3Y_fHC2wXxM6h4AaABAg",
+   "vid": "qTP7sB3IoAE",
+   "deleted": false,
+   "posted": "2026-11-27 02:38",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "그룹 전체",
+   "theme": "타그룹 인기 비교",
+   "artist": "리센느",
+   "implied": "리센느보다 아일릿이 낫다",
+   "reason": "리센느 영상에서 타 그룹이 더 낫다고 비교해 깎아내리는 인상을 줌(경미, 사람 확인 필요).",
+   "text": "아일릿이 제일 좋던데…",
+   "video": "리센느, 디즈니 OST 공개 1위!! #리센느 #아일릿 #빅뱅",
+   "channel": "케이팝 트렌드 KPOP Trend",
+   "link": "https://www.youtube.com/watch?v=qTP7sB3IoAE&lc=UgzItI3Y_fHC2wXxM6h4AaABAg"
+  },
+  {
    "id": "Ugx31b3uR4EMP__mtk14AaABAg",
    "vid": "y4Em3wRTerg",
    "deleted": false,
@@ -7047,6 +7420,26 @@
    "video": "실시간 난리난 리센느 근황",
    "channel": "짤잉 Zzal ing",
    "link": "https://www.youtube.com/watch?v=4Cg5BNNAbUk&lc=UgzMAOkNkHoDLdNaKFl4AaABAg"
+  },
+  {
+   "id": "Ugzacl1YlcW4Th-jX6l4AaABAg",
+   "vid": "PHjxYnY-z6k",
+   "deleted": false,
+   "posted": "2026-11-27 01:29",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "멤버 보컬 실력 부족",
+   "artist": "리센느",
+   "implied": "녹음 영상을 보면 멤버들의 실력이 부족하고 수정 요구에도 개선이 안 된다",
+   "reason": "디렉팅 영상에서 수정해도 바뀌지 않고 멤버들도 부족함을 안다고 하여 실력 부족을 단정한다. 뒷부분의 반박 문장이 섞여 있어 사람 확인이 필요하다.",
+   "text": "녹음영상 봤는데. \n녹음 디렉팅부스에서 보컬 레슨을 받고 있는걸 좀 의야했는데\n심각한건 수정을 요구해도 바뀌지가  않고 디렉터가 그냥 넘어갈께요 하고 넘어가는거 보고 현한숨 터짐.\n아마 멤버들도 디렉터가 가장 잘 알꺼임.... 부족하단걸 많이..\n뭔소리야 잘하는데.. \n다른 그룹들 디렉팅영상 한번 찾아보시길",
+   "video": "\"중소의 기적? 절대 우연이 아니었다\" 리센느 31분 녹음실 뒤에 숨은 버클리 경영진의 정체",
+   "channel": "스타멘터리",
+   "link": "https://www.youtube.com/watch?v=PHjxYnY-z6k&lc=Ugzacl1YlcW4Th-jX6l4AaABAg"
   },
   {
    "id": "UgwJzW60U0bZuVmXuZB4AaABAg",
@@ -7169,9 +7562,29 @@
    "link": "https://www.youtube.com/watch?v=eNkFPBrG6js&lc=UgwbT8ZKE8_kHHNlNQl4AaABAg"
   },
   {
+   "id": "UgxeWfF-mO116-K8cdJ4AaABAg",
+   "vid": "YtVjkgHdhc4",
+   "deleted": false,
+   "posted": "2026-11-27 00:18",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "외모 조롱",
+   "artist": "리센느",
+   "implied": "리브는 실력보다 체격과 비주얼 덕에 아이돌이 되었다",
+   "reason": "리브 영상에서 일반론 형식으로 실력보다 체격·비주얼이 중요하다고 하여 실력을 깎아내리는 인상을 준다.",
+   "text": "아이돌 할려면 잘하는것도 중요한데 체격과 비쥬얼이 더 중요하네....",
+   "video": "데뷔 전 리브 진경은 시절 영상! 댄스 버스킹 'fromis_9 - DM' #리센느 #RESCENE",
+   "channel": "쩔지",
+   "link": "https://www.youtube.com/watch?v=YtVjkgHdhc4&lc=UgxeWfF-mO116-K8cdJ4AaABAg"
+  },
+  {
    "id": "UgziBpVlzCRJeT36dSZ4AaABAg",
    "vid": "jrkmBl-c9wY",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-27 00:14",
    "found": "2026-11-27 02:08",
    "confidence": "의심",
@@ -7191,7 +7604,7 @@
   {
    "id": "Ugy4beg3tH28cxNws_p4AaABAg",
    "vid": "jrkmBl-c9wY",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-27 00:14",
    "found": "2026-11-27 02:08",
    "confidence": "의심",
@@ -7329,6 +7742,26 @@
    "link": "https://www.youtube.com/watch?v=9TDuHI-DKlY&lc=Ugw-3m8xhAaXq9N1yxB4AaABAg"
   },
   {
+   "id": "UgwFjZOvQYIFl9kewT94AaABAg",
+   "vid": "gJRSfcnRO5A",
+   "deleted": false,
+   "posted": "2026-11-26 23:40",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "허위사실/루머",
+   "target": "그룹 전체",
+   "theme": "언론플레이 루머",
+   "artist": "리센느",
+   "implied": "카카오가 리센느를 인위적으로 밀어주고 있다",
+   "reason": "홍보를 인위적 띄우기 작업으로 암시하는 비꼼이라 확인이 필요함.",
+   "text": "\"카카오=리센느\" 이 작업을 하고 있구만",
+   "video": "카카오 미친 스케일ㄷㄷ 광고인지 홍보인지 #리센느",
+   "channel": "리센느좋아",
+   "link": "https://www.youtube.com/watch?v=gJRSfcnRO5A&lc=UgwFjZOvQYIFl9kewT94AaABAg"
+  },
+  {
    "id": "Ugx-AxlgUGHaIwZfkKd4AaABAg.AdfPEfGvhRTAdfqcbffByf",
    "vid": "_Z6IO8YmMys",
    "deleted": false,
@@ -7367,6 +7800,26 @@
    "video": "육아 모먼트 제대로 나온다는 리센느 원이 #원이 #메이 #제나 #미나미 #리브 #리센느 #rescene #안원잘부",
    "channel": "IDOLCATCHUP",
    "link": "https://www.youtube.com/watch?v=22xSNeb2LgM&lc=UgwEd3UsP58Rzq-9IrR4AaABAg"
+  },
+  {
+   "id": "UgyBb_teRYH4erD_rv14AaABAg",
+   "vid": "4IDl_zlbaGE",
+   "deleted": false,
+   "posted": "2026-11-26 23:29",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "MAMA 무대에서 벌어진 일 때문에 분위기가 깨졌고 콘서트도 아닌데 과했다",
+   "reason": "무대 분위기를 깼다며 비꼬는 조롱으로 읽혀 사람 확인이 필요함.",
+   "text": "저거보면서 분위기 다 깨졌음 ㅋㅋㅋㅋ 단콘도 아니고 ㅋㅋㅋ",
+   "video": "리센느 MAMA 감격의 무대에 숨겨진 반전",
+   "channel": "센며든다",
+   "link": "https://www.youtube.com/watch?v=4IDl_zlbaGE&lc=UgyBb_teRYH4erD_rv14AaABAg"
   },
   {
    "id": "UgzYnj75mV7rKm5oK9J4AaABAg",
@@ -7609,6 +8062,26 @@
    "link": "https://www.youtube.com/watch?v=TbKOfTIJfj8&lc=Ugyo41XPZLSxGiqZnIV4AaABAg.AdeTlAv9myfAdfgnlTl7Q9"
   },
   {
+   "id": "UgwCwF3qBgR65Hy2eFF4AaABAg",
+   "vid": "YtVjkgHdhc4",
+   "deleted": false,
+   "posted": "2026-11-26 22:10",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "외모 조롱",
+   "artist": "리브",
+   "implied": "리브의 옷을 조롱한 사람들의 심정이 이해된다",
+   "reason": "리브의 옷차림을 조롱한 행동을 정당화하는 말이다.",
+   "text": "근데 진짜 리브 옷 가지고 조롱한  이유 알것같다",
+   "video": "데뷔 전 리브 진경은 시절 영상! 댄스 버스킹 'fromis_9 - DM' #리센느 #RESCENE",
+   "channel": "쩔지",
+   "link": "https://www.youtube.com/watch?v=YtVjkgHdhc4&lc=UgwCwF3qBgR65Hy2eFF4AaABAg"
+  },
+  {
    "id": "UgxCPSCW41O-bPyUasp4AaABAg",
    "vid": "7bSe-42pIlU",
    "deleted": false,
@@ -7747,6 +8220,26 @@
    "video": "아미 걸그룹 리센느",
    "channel": "알럽셀럽",
    "link": "https://www.youtube.com/watch?v=eNkFPBrG6js&lc=UgxrJPJ1xtJoRioJ1VF4AaABAg"
+  },
+  {
+   "id": "Ugz-nVXb5fvnztocQi14AaABAg",
+   "vid": "YtVjkgHdhc4",
+   "deleted": false,
+   "posted": "2026-11-26 21:20",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "외모 조롱",
+   "artist": "리센느",
+   "implied": "리브의 체형이 역삼각형이라며 놀린다",
+   "reason": "리브의 아이라인과 체형을 ㅋㅋ로 조롱하는 말투다. 다만 가벼운 농담일 수 있어 사람 확인이 필요하다.",
+   "text": "아이라인 3개 역삼각형 체형 ㅋㅋ",
+   "video": "데뷔 전 리브 진경은 시절 영상! 댄스 버스킹 'fromis_9 - DM' #리센느 #RESCENE",
+   "channel": "쩔지",
+   "link": "https://www.youtube.com/watch?v=YtVjkgHdhc4&lc=Ugz-nVXb5fvnztocQi14AaABAg"
   },
   {
    "id": "UgxO0jgGhk0v1iAk_Tt4AaABAg",
@@ -8069,6 +8562,26 @@
    "link": "https://www.youtube.com/watch?v=eNkFPBrG6js&lc=UgzXYnVbp4vO8NyHnfx4AaABAg"
   },
   {
+   "id": "UgxqyxG0gLGqYgSEKNx4AaABAg",
+   "vid": "YtVjkgHdhc4",
+   "deleted": false,
+   "posted": "2026-11-26 20:25",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "외모 조롱",
+   "artist": "리센느",
+   "implied": "리브가 빵 심부름이나 시키기 좋은 만만한 인상이다",
+   "reason": "리브의 외모·인상을 만만한 심부름꾼에 빗대어 조롱한다.",
+   "text": "이땐 왜 빵 심부름 잘 시키게 생겼냐 ㅋㅋㅋ",
+   "video": "데뷔 전 리브 진경은 시절 영상! 댄스 버스킹 'fromis_9 - DM' #리센느 #RESCENE",
+   "channel": "쩔지",
+   "link": "https://www.youtube.com/watch?v=YtVjkgHdhc4&lc=UgxqyxG0gLGqYgSEKNx4AaABAg"
+  },
+  {
    "id": "Ugygi1XdPikzsVNkbid4AaABAg",
    "vid": "iCwfIpCTATc",
    "deleted": false,
@@ -8127,6 +8640,26 @@
    "video": "대상 MC로 나온다는 리센느 멤버",
    "channel": "짤잉 Zzal ing",
    "link": "https://www.youtube.com/watch?v=m2NluuD2HEw&lc=UgzrMnijdwyAwckLYrp4AaABAg"
+  },
+  {
+   "id": "UgwkRHfK_eXwGbu8tm94AaABAg",
+   "vid": "YtVjkgHdhc4",
+   "deleted": false,
+   "posted": "2026-11-26 20:09",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "외모 조롱",
+   "artist": "리센느",
+   "implied": "리브가 엽떡을 많이 먹어 살이 쪘다",
+   "reason": "데뷔 전 영상에 빗대어 리브의 체형·체중을 은근히 조롱하는 것으로 읽힌다. 다만 의도가 모호해 사람 확인이 필요하다.",
+   "text": "전땐 엽떡이 없었나?",
+   "video": "데뷔 전 리브 진경은 시절 영상! 댄스 버스킹 'fromis_9 - DM' #리센느 #RESCENE",
+   "channel": "쩔지",
+   "link": "https://www.youtube.com/watch?v=YtVjkgHdhc4&lc=UgwkRHfK_eXwGbu8tm94AaABAg"
   },
   {
    "id": "UgwpHrzokc0Hpu_d2GR4AaABAg",
@@ -9211,7 +9744,7 @@
   {
    "id": "UgxBYxiNsKpfRdBDgoh4AaABAg.AddUDva44ghAdejLk3cLsj",
    "vid": "A5vjepDsKrU",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-26 13:16",
    "found": "2026-11-26 14:24",
    "confidence": "의심",
@@ -9367,6 +9900,26 @@
    "video": "안경 선배가 뺏은 센터 #에이티즈 #리센느 #댄스챌린지",
    "channel": "어바웃쇼",
    "link": "https://www.youtube.com/watch?v=DcCT4MYWtPE&lc=Ugwk5eFlc2OoUIQ1N-x4AaABAg"
+  },
+  {
+   "id": "UgyIXUrOYpifxNTAa7d4AaABAg",
+   "vid": "ewOJP7wEn0g",
+   "deleted": false,
+   "posted": "2026-11-26 12:27",
+   "found": "2026-11-27 05:30",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "그룹 전체",
+   "theme": "태도 비하",
+   "artist": "리센느",
+   "implied": "사람들이 초심을 잃은 것 같다",
+   "reason": "비꼬는 말투로 멤버들이 초심을 잃었다는 태도 비하 인상을 준다.",
+   "text": "초심잃은줄 알겠어😅",
+   "video": "폰없던애들한테 폰주면 일어나는 사태#리센느",
+   "channel": "캡로그",
+   "link": "https://www.youtube.com/watch?v=ewOJP7wEn0g&lc=UgyIXUrOYpifxNTAa7d4AaABAg"
   },
   {
    "id": "UgzpBZzTtJrn4zY8iYd4AaABAg",
@@ -9851,7 +10404,7 @@
   {
    "id": "UgxBYxiNsKpfRdBDgoh4AaABAg.AddUDva44ghAdeJolmy3Ui",
    "vid": "A5vjepDsKrU",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-26 09:24",
    "found": "2026-11-26 12:17",
    "confidence": "의심",
