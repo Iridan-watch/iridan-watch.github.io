@@ -1,11 +1,110 @@
 {
- "updated_at": "2026-11-27 14:18",
+ "updated_at": "2026-11-27 15:24",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 1392,
- "comments_collected": 41619,
- "comments_checked": 41619,
+ "videos_tracked": 1407,
+ "comments_collected": 42135,
+ "comments_checked": 42135,
  "videos_flagged": [
+  {
+   "video_id": "7_TsjxHXw68",
+   "title": "리센느 첫 단콘 티켓값 비싸다? 팬들은 예매가 더 걱정",
+   "channel": "발발이",
+   "toxic": 9,
+   "total": 52,
+   "ratio": 0.1731,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=7_TsjxHXw68"
+  },
+  {
+   "video_id": "DZABvVAn_PA",
+   "title": "리센느 모델 쓴 MLB 회사, 11월 성적표 몇 위? #리센느 #MLB",
+   "channel": "인주랑",
+   "toxic": 5,
+   "total": 41,
+   "ratio": 0.122,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=DZABvVAn_PA"
+  },
+  {
+   "video_id": "LzTTtwrzw8Q",
+   "title": "라방 중 필터 없이 나온 리브 말실수ㅋㅋ #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
+   "channel": "뮤드숏",
+   "toxic": 8,
+   "total": 34,
+   "ratio": 0.2353,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=LzTTtwrzw8Q"
+  },
+  {
+   "video_id": "NVSFP09LsQw",
+   "title": "다시 한번 보고 싶다는 찐경은 근황 #리센느",
+   "channel": "짧은 이슈",
+   "toxic": 16,
+   "total": 185,
+   "ratio": 0.0865,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=NVSFP09LsQw"
+  },
+  {
+   "video_id": "VKeYFDpX6xM",
+   "title": "리센느 5명 칼군무, AI가 채점해 봤더니…",
+   "channel": "덕심저장소",
+   "toxic": 10,
+   "total": 99,
+   "ratio": 0.101,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=VKeYFDpX6xM"
+  },
+  {
+   "video_id": "YtVjkgHdhc4",
+   "title": "데뷔 전 리브 진경은 시절 영상! 댄스 버스킹 'fromis_9 - DM' #리센느 #RESCENE",
+   "channel": "쩔지",
+   "toxic": 7,
+   "total": 114,
+   "ratio": 0.0614,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=YtVjkgHdhc4"
+  },
+  {
+   "video_id": "bUgCQ7wMp3I",
+   "title": "정신상태 아니라던 라이브 팬한테 실수하고 수습중ㅋㅋㅋ",
+   "channel": "리센느 입덕저장소",
+   "toxic": 6,
+   "total": 58,
+   "ratio": 0.1034,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=bUgCQ7wMp3I"
+  },
+  {
+   "video_id": "nXIsDi-d7JQ",
+   "title": "모두가 기다린 라이브 7시간 만에 170만+ #리센느",
+   "channel": "리센느좋아",
+   "toxic": 3,
+   "total": 57,
+   "ratio": 0.0526,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=nXIsDi-d7JQ"
+  },
+  {
+   "video_id": "rY6T4zNgYTc",
+   "title": "리센느 리브 천상계 가성과 파워 고음#리센느 #리브 #아이돌보컬",
+   "channel": "MOAday",
+   "toxic": 3,
+   "total": 43,
+   "ratio": 0.0698,
+   "submitted": false,
+   "last": "2026-11-27 15:24",
+   "link": "https://www.youtube.com/watch?v=rY6T4zNgYTc"
+  },
   {
    "video_id": "0O7kHF35VUk",
    "title": "말실수하자마자 바로 폭격하는 리센느",
@@ -40,17 +139,6 @@
    "link": "https://www.youtube.com/watch?v=7GDwukKWzv4"
   },
   {
-   "video_id": "7_TsjxHXw68",
-   "title": "리센느 첫 단콘 티켓값 비싸다? 팬들은 예매가 더 걱정",
-   "channel": "발발이",
-   "toxic": 8,
-   "total": 47,
-   "ratio": 0.1702,
-   "submitted": false,
-   "last": "2026-11-27 14:18",
-   "link": "https://www.youtube.com/watch?v=7_TsjxHXw68"
-  },
-  {
    "video_id": "9pmi_koNVlA",
    "title": "원이가 정산일을 목놓아 기다리는 이유",
    "channel": "예뿡거",
@@ -73,17 +161,6 @@
    "link": "https://www.youtube.com/watch?v=DTnDnynl3uE"
   },
   {
-   "video_id": "DZABvVAn_PA",
-   "title": "리센느 모델 쓴 MLB 회사, 11월 성적표 몇 위? #리센느 #MLB",
-   "channel": "인주랑",
-   "toxic": 5,
-   "total": 40,
-   "ratio": 0.125,
-   "submitted": false,
-   "last": "2026-11-27 14:18",
-   "link": "https://www.youtube.com/watch?v=DZABvVAn_PA"
-  },
-  {
    "video_id": "J1wUN27ajOk",
    "title": "리센느 원이, 미나미, 리브를 체포해야 되는 이유 #리센느 #rescene #원이 #미나미 #리브",
    "channel": "RE:센느컷",
@@ -93,28 +170,6 @@
    "submitted": false,
    "last": "2026-11-27 14:18",
    "link": "https://www.youtube.com/watch?v=J1wUN27ajOk"
-  },
-  {
-   "video_id": "LzTTtwrzw8Q",
-   "title": "라방 중 필터 없이 나온 리브 말실수ㅋㅋ #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
-   "channel": "뮤드숏",
-   "toxic": 7,
-   "total": 31,
-   "ratio": 0.2258,
-   "submitted": false,
-   "last": "2026-11-27 14:18",
-   "link": "https://www.youtube.com/watch?v=LzTTtwrzw8Q"
-  },
-  {
-   "video_id": "NVSFP09LsQw",
-   "title": "다시 한번 보고 싶다는 찐경은 근황 #리센느",
-   "channel": "짧은 이슈",
-   "toxic": 16,
-   "total": 184,
-   "ratio": 0.087,
-   "submitted": false,
-   "last": "2026-11-27 14:18",
-   "link": "https://www.youtube.com/watch?v=NVSFP09LsQw"
   },
   {
    "video_id": "Nc-ptwQB3Zw",
@@ -137,28 +192,6 @@
    "submitted": false,
    "last": "2026-11-27 14:18",
    "link": "https://www.youtube.com/watch?v=R58OJdjJb3o"
-  },
-  {
-   "video_id": "YtVjkgHdhc4",
-   "title": "데뷔 전 리브 진경은 시절 영상! 댄스 버스킹 'fromis_9 - DM' #리센느 #RESCENE",
-   "channel": "쩔지",
-   "toxic": 7,
-   "total": 113,
-   "ratio": 0.0619,
-   "submitted": false,
-   "last": "2026-11-27 14:18",
-   "link": "https://www.youtube.com/watch?v=YtVjkgHdhc4"
-  },
-  {
-   "video_id": "bUgCQ7wMp3I",
-   "title": "정신상태 아니라던 라이브 팬한테 실수하고 수습중ㅋㅋㅋ",
-   "channel": "리센느 입덕저장소",
-   "toxic": 4,
-   "total": 56,
-   "ratio": 0.0714,
-   "submitted": false,
-   "last": "2026-11-27 14:18",
-   "link": "https://www.youtube.com/watch?v=bUgCQ7wMp3I"
   },
   {
    "video_id": "bh1NORtEb64",
@@ -205,28 +238,6 @@
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg"
   },
   {
-   "video_id": "nXIsDi-d7JQ",
-   "title": "모두가 기다린 라이브 7시간 만에 170만+ #리센느",
-   "channel": "리센느좋아",
-   "toxic": 3,
-   "total": 56,
-   "ratio": 0.0536,
-   "submitted": false,
-   "last": "2026-11-27 14:18",
-   "link": "https://www.youtube.com/watch?v=nXIsDi-d7JQ"
-  },
-  {
-   "video_id": "rY6T4zNgYTc",
-   "title": "리센느 리브 천상계 가성과 파워 고음#리센느 #리브 #아이돌보컬",
-   "channel": "MOAday",
-   "toxic": 3,
-   "total": 42,
-   "ratio": 0.0714,
-   "submitted": false,
-   "last": "2026-11-27 14:18",
-   "link": "https://www.youtube.com/watch?v=rY6T4zNgYTc"
-  },
-  {
    "video_id": "t41UiG7l4LY",
    "title": "리마인 체포하러온 언니즈 (LIV Focus) #리센느 #RESCENE #Shorts",
    "channel": "이불밖은위험해",
@@ -247,17 +258,6 @@
    "submitted": false,
    "last": "2026-11-27 14:18",
    "link": "https://www.youtube.com/watch?v=y4Em3wRTerg"
-  },
-  {
-   "video_id": "VKeYFDpX6xM",
-   "title": "리센느 5명 칼군무, AI가 채점해 봤더니…",
-   "channel": "덕심저장소",
-   "toxic": 10,
-   "total": 98,
-   "ratio": 0.102,
-   "submitted": false,
-   "last": "2026-11-27 12:17",
-   "link": "https://www.youtube.com/watch?v=VKeYFDpX6xM"
   },
   {
    "video_id": "W-Pc5un3Cc4",
@@ -685,8 +685,8 @@
  "themes_7d": [
   {
    "theme": "팬덤 비하",
-   "count": 111,
-   "indirect": 66
+   "count": 115,
+   "indirect": 67
   },
   {
    "theme": "외모 조롱",
@@ -700,33 +700,33 @@
   },
   {
    "theme": "태도 비하",
-   "count": 62,
+   "count": 63,
    "indirect": 34
   },
   {
    "theme": "인기 조롱",
-   "count": 51,
+   "count": 52,
    "indirect": 39
   },
   {
    "theme": "노래 실력 부족",
-   "count": 50,
+   "count": 51,
    "indirect": 24
   },
   {
    "theme": "활동 방식 조롱",
-   "count": 43,
-   "indirect": 37
+   "count": 44,
+   "indirect": 38
   },
   {
    "theme": "라이브 논란",
-   "count": 40,
-   "indirect": 29
+   "count": 43,
+   "indirect": 31
   },
   {
    "theme": "부정적 전망",
-   "count": 37,
-   "indirect": 29
+   "count": 38,
+   "indirect": 30
   },
   {
    "theme": "춤 실력 조롱",
@@ -747,8 +747,8 @@
  "themes_all": [
   {
    "theme": "팬덤 비하",
-   "count": 111,
-   "indirect": 66
+   "count": 115,
+   "indirect": 67
   },
   {
    "theme": "외모 조롱",
@@ -762,33 +762,33 @@
   },
   {
    "theme": "태도 비하",
-   "count": 62,
+   "count": 63,
    "indirect": 34
   },
   {
    "theme": "인기 조롱",
-   "count": 51,
+   "count": 52,
    "indirect": 39
   },
   {
    "theme": "노래 실력 부족",
-   "count": 50,
+   "count": 51,
    "indirect": 24
   },
   {
    "theme": "활동 방식 조롱",
-   "count": 43,
-   "indirect": 37
+   "count": 44,
+   "indirect": 38
   },
   {
    "theme": "라이브 논란",
-   "count": 40,
-   "indirect": 29
+   "count": 43,
+   "indirect": 31
   },
   {
    "theme": "부정적 전망",
-   "count": 37,
-   "indirect": 29
+   "count": 38,
+   "indirect": 30
   },
   {
    "theme": "춤 실력 조롱",
@@ -1006,6 +1006,106 @@
    "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
    "channel": "YTN star",
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg"
+  },
+  {
+   "id": "UgyxkD9wbE9KlysTVoF4AaABAg",
+   "vid": "jrkmBl-c9wY",
+   "deleted": false,
+   "posted": "2026-11-27 15:10",
+   "found": "2026-11-27 15:24",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "인기 조롱",
+   "artist": "리센느",
+   "implied": "리센느는 그 돈을 내고 볼 가치가 없으니 가지 마라",
+   "reason": "단콘 가치를 깎아내리며 관람 보이콧을 부추긴다.",
+   "text": "야 저돈주고 리센느를 보러 간다고??\n다들 절대 가지마라 진짜",
+   "video": "첫 단콘 가격 뜨자마자 반응 둘로 갈린 리센느",
+   "channel": "케이팝콘",
+   "link": "https://www.youtube.com/watch?v=jrkmBl-c9wY&lc=UgyxkD9wbE9KlysTVoF4AaABAg"
+  },
+  {
+   "id": "Ugw8IuBwfMRlvfksLYl4AaABAg",
+   "vid": "Kr85Kp7RDnE",
+   "deleted": false,
+   "posted": "2026-11-27 15:04",
+   "found": "2026-11-27 15:24",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "원이·메이 보컬 실력 부족",
+   "artist": "리센느",
+   "implied": "원이와 메이는 가창력이 부족하지만 음색 덕에 뽑힌 멤버다",
+   "reason": "미나미·리브·제나를 치켜세우며 원이와 메이는 가창력이 없다고 단정해 깎아내린다.",
+   "text": "미나미 리브는 지금도 든든함.\n제나도 실력 포텐 터질테고.\n원이랑 메이는 애시당초 탁월한 가창력으로 뽑은 멤버가 아님. \n대신 음색이 좋고 다른 매력이 넘치니까 뽑힌거지.",
+   "video": "리센느한테 말도 안 되는 악플이 달렸다고?",
+   "channel": "봉덕각시",
+   "link": "https://www.youtube.com/watch?v=Kr85Kp7RDnE&lc=Ugw8IuBwfMRlvfksLYl4AaABAg"
+  },
+  {
+   "id": "Ugxr8_XG00T7loC_EH14AaABAg",
+   "vid": "rZzOwkVHpwI",
+   "deleted": false,
+   "posted": "2026-11-27 14:57",
+   "found": "2026-11-27 15:24",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬덤은 고령층 위주인 틀니 팬덤이고 젊은 팬은 기피하며 스밍 인증이나 하는 그들만의 판이다",
+   "reason": "'틀니돌'이라는 표현으로 고령 팬덤 프레임을 씌우고 스밍 인증 문화를 조롱한다.",
+   "text": "오래되고 나이먹은 퇴물돌이 아니라 현역 아이돌 중에서 리센느만 유독 심하게 틀니돌인것 같음 틀니들 진짜 많음\n이러면 오랫동안 떠받쳐줄 젊은애들은 상대적으로 기피하는 층이 생길수밖에 없는데 먼 미래를 어떻게 풀어나가려나\n그것도 그렇고, 아직도 돌판은 멜론이구나ㅋㅋ 맨날 스밍인증이니 뭐니 프로필 출력까지 해가며 개 염병을 하던데 그들만의 플랫폼;;",
+   "video": "\"수익보다 팬을 먼저 생각했다...\" 첫 단독 콘서트 앞두고 리센느에 찬사가 쏟아지는 이유",
+   "channel": "셀럽도감",
+   "link": "https://www.youtube.com/watch?v=rZzOwkVHpwI&lc=Ugxr8_XG00T7loC_EH14AaABAg"
+  },
+  {
+   "id": "UgyL54ZxResQD0t104x4AaABAg",
+   "vid": "7_TsjxHXw68",
+   "deleted": false,
+   "posted": "2026-11-27 14:41",
+   "found": "2026-11-27 15:24",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "노래 실력 부족",
+   "artist": "리센느",
+   "implied": "리센느는 노래를 못해서 콘서트에 갈 가치가 없다",
+   "reason": "실력을 단정해서 비하하고 콘서트 관람을 깎아내린다.",
+   "text": "노래를 못하는데 뭐하러감?",
+   "video": "리센느 첫 단콘 티켓값 비싸다? 팬들은 예매가 더 걱정",
+   "channel": "발발이",
+   "link": "https://www.youtube.com/watch?v=7_TsjxHXw68&lc=UgyL54ZxResQD0t104x4AaABAg"
+  },
+  {
+   "id": "Ugxt2z_IzDPqnx9Eikd4AaABAg",
+   "vid": "jrkmBl-c9wY",
+   "deleted": false,
+   "posted": "2026-11-27 14:24",
+   "found": "2026-11-27 15:24",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬들은 가성비로 소비하다 떠나는 4050 한남이다",
+   "reason": "팬덤을 4050 한남팬, 가성비로 소비하다 떠나는 집단으로 조롱한다.",
+   "text": "ㅋㅋㅋㅋㅋ 그럼그렇지 60만장중에 40만장이 6천원짜리 qr앨범인 그룹 팬들 답다 ㅋㅋㅋㅋㅋㅋㅋㅋ 아이돌중에 티켓값 제일싼편인데 그거마저 비싸다고 가성비 웅앵ㅋㅋ 얘네팬들 90프로가 1-2년 가성비로 빨다가 새 여돌나오면 옮겨가는 4050 한남팬임",
+   "video": "첫 단콘 가격 뜨자마자 반응 둘로 갈린 리센느",
+   "channel": "케이팝콘",
+   "link": "https://www.youtube.com/watch?v=jrkmBl-c9wY&lc=Ugxt2z_IzDPqnx9Eikd4AaABAg"
   },
   {
    "id": "UgxlWC0amGExBY-9zMh4AaABAg",
@@ -5448,6 +5548,26 @@
    "link": "https://www.youtube.com/watch?v=rtq2W9GZ37E&lc=UgxJJ0WBJ3UUr0kXDo94AaABAg"
   },
   {
+   "id": "UgwEJVIcSyoBe3DxnEt4AaABAg",
+   "vid": "SnPfoEBmlro",
+   "deleted": false,
+   "posted": "2026-11-27 15:22",
+   "found": "2026-11-27 15:24",
+   "confidence": "확실",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "올려치기 반감",
+   "artist": "리센느",
+   "implied": "리브가 센터를 맡는 건 불길하고 마땅치 않다",
+   "reason": "'리센느' 삼행시 형식으로 리브가 센터인 것에 '느낌이 쎄하다'며 부정적 인상을 씌움.",
+   "text": "리 브가 \n센 터면 \n느 낌이 쎄하다",
+   "video": "리센느가 돌아있다면 항상 센터는 리브다",
+   "channel": "커피우유1505",
+   "link": "https://www.youtube.com/watch?v=SnPfoEBmlro&lc=UgwEJVIcSyoBe3DxnEt4AaABAg"
+  },
+  {
    "id": "UgwCrVMLk7AlJqLItrd4AaABAg",
    "vid": "jrkmBl-c9wY",
    "deleted": false,
@@ -5606,6 +5726,126 @@
    "video": "가시나야 한마디에 난리 난 리센느 원이",
    "channel": "리썰냥",
    "link": "https://www.youtube.com/watch?v=qu1qE_Z0jdk&lc=Ugy-QBVI239Ljol-oW94AaABAg"
+  },
+  {
+   "id": "UgxL_5yPSWQMmELzvUR4AaABAg",
+   "vid": "bUgCQ7wMp3I",
+   "deleted": false,
+   "posted": "2026-11-27 15:01",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "허위사실/루머",
+   "target": "그룹 전체",
+   "theme": "라이브 논란",
+   "artist": "리센느",
+   "implied": "라이브 때 멤버가 술을 마신 것 같다",
+   "reason": "근거 없이 라이브 때 음주를 했다고 암시해 태도를 깎아내린다.",
+   "text": "한잔한거같음 ㅋㅋ",
+   "video": "정신상태 아니라던 라이브 팬한테 실수하고 수습중ㅋㅋㅋ",
+   "channel": "리센느 입덕저장소",
+   "link": "https://www.youtube.com/watch?v=bUgCQ7wMp3I&lc=UgxL_5yPSWQMmELzvUR4AaABAg"
+  },
+  {
+   "id": "Ugxs9pkx_-O34QkfOkV4AaABAg",
+   "vid": "bUgCQ7wMp3I",
+   "deleted": false,
+   "posted": "2026-11-27 15:00",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "허위사실/루머",
+   "target": "그룹 전체",
+   "theme": "라이브 논란",
+   "artist": "리센느",
+   "implied": "라이브 때 멤버가 술을 마신 것 같다",
+   "reason": "근거 없이 라이브 때 음주를 했다고 암시해 태도를 깎아내린다.",
+   "text": "한잔한거같음 ㅋㅋ",
+   "video": "정신상태 아니라던 라이브 팬한테 실수하고 수습중ㅋㅋㅋ",
+   "channel": "리센느 입덕저장소",
+   "link": "https://www.youtube.com/watch?v=bUgCQ7wMp3I&lc=Ugxs9pkx_-O34QkfOkV4AaABAg"
+  },
+  {
+   "id": "UgzYBnm_rIID-yvfEa94AaABAg",
+   "vid": "jrkmBl-c9wY",
+   "deleted": false,
+   "posted": "2026-11-27 14:55",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "그룹 전체",
+   "theme": "라이브 논란",
+   "artist": "리센느",
+   "implied": "리센느는 라이브도 못하는 유튜버일 뿐인데 콘서트를 한다는 건 개그다",
+   "reason": "라이브 실력이 안 된다고 단정하고 콘서트를 개그콘서트에 빗대어 조롱한다.",
+   "text": "라이브도 안되는 유튜버들이 뭔 콘서트고???아~개그콘서튼가???",
+   "video": "첫 단콘 가격 뜨자마자 반응 둘로 갈린 리센느",
+   "channel": "케이팝콘",
+   "link": "https://www.youtube.com/watch?v=jrkmBl-c9wY&lc=UgzYBnm_rIID-yvfEa94AaABAg"
+  },
+  {
+   "id": "UgyPmPUGCdCU8Tg-6iZ4AaABAg",
+   "vid": "En_HqwNqG6w",
+   "deleted": false,
+   "posted": "2026-11-27 14:47",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "제나 외모·재능 비하",
+   "artist": "리센느",
+   "implied": "제나는 정서불안 같다",
+   "reason": "머리 스타일을 두고 제나에게 정서불안이라는 인격 프레임을 씌운다.",
+   "text": "머리좀 나둬라...정서불안같다.",
+   "video": "[리센느] 엔딩 포즈 중 제나 앞에 날아온 것",
+   "channel": "리센느지만괜찮아",
+   "link": "https://www.youtube.com/watch?v=En_HqwNqG6w&lc=UgyPmPUGCdCU8Tg-6iZ4AaABAg"
+  },
+  {
+   "id": "UgwmCEEqUrPdAkWnqSt4AaABAg",
+   "vid": "WK_qNE2Imfw",
+   "deleted": false,
+   "posted": "2026-11-27 14:47",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "혐오/차별",
+   "target": "그룹 전체",
+   "theme": "태도 비하",
+   "artist": "리센느",
+   "implied": "리센느가 베트남 편을 드는 게임을 하는 건 부적절하니 어울리지 말아야 한다",
+   "reason": "베트남 사람들을 배척하는 혐오 발언이며 리센느 활동에 간섭한다.",
+   "text": "안돼...ㅠ 그거 베트남 그라운드 돼서 베트남 편들어줘. 우리나라 게임 아냐.\n내가 배그 진짜 좋아했던 사람이라 하는 말인데 나도 손절한지 몇달됐어.\n걍 드래곤빌리지나 같이하자❤\n\n베트남 애들하고 어울리는거 아냐.",
+   "video": "[리센느]PUBG 관계자분들 여기에요! 리센느가 요즘 푹 빠진 게임",
+   "channel": "아이돌zip",
+   "link": "https://www.youtube.com/watch?v=WK_qNE2Imfw&lc=UgwmCEEqUrPdAkWnqSt4AaABAg"
+  },
+  {
+   "id": "Ugy0SJNaQF9TPL7lRQp4AaABAg.AdfG2UhBM7gAdhRCgZPZWP",
+   "vid": "ZA4xnFXj5CY",
+   "deleted": false,
+   "posted": "2026-11-27 14:27",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 2,
+   "kind": "돌려까기",
+   "category": "돌려까기",
+   "target": "멤버",
+   "theme": "원이·메이 실력 부족",
+   "artist": "리센느",
+   "implied": "원이와 메이는 실력이 없어서 리센느로 인정할 수 없다",
+   "reason": "실력 있다는 부모 댓글에 반문하는 형식으로 원이와 메이만 실력에서 제외시킨다.",
+   "text": "원이메이는 리센느가아닌거냐?",
+   "video": "[리센느] 1초 만에 사람이 바뀐 무대 마술 정체",
+   "channel": "리센느지만괜찮아",
+   "link": "https://www.youtube.com/watch?v=ZA4xnFXj5CY&lc=Ugy0SJNaQF9TPL7lRQp4AaABAg.AdfG2UhBM7gAdhRCgZPZWP"
   },
   {
    "id": "UgzDTFTAp-QPbrwYwQJ4AaABAg",
@@ -7926,6 +8166,146 @@
    "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
    "channel": "YTN star",
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=Ugye7-HubvU33BaxoJh4AaABAg.AdYVpCvniBQAdYZO-9dGPl"
+  },
+  {
+   "id": "UgzverMtItgWb__wZi54AaABAg",
+   "vid": "FUa0JDJEJaY",
+   "deleted": false,
+   "posted": "2026-11-27 15:21",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "팬덤비하",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "리센느 팬층이 나이 많은 층이다",
+   "reason": "팬층 나이를 들먹여 아재 팬덤 프레임을 씌운다.",
+   "text": "팬층 나이가...ㅋㅋ  느껴진다",
+   "video": "리센느 메이가 말아주는 추억의 미드. #리센느메이",
+   "channel": "수익창출없는채널",
+   "link": "https://www.youtube.com/watch?v=FUa0JDJEJaY&lc=UgzverMtItgWb__wZi54AaABAg"
+  },
+  {
+   "id": "Ugw4kls_A3uCycYYE754AaABAg.AdggulIu8vxAdhVnBWPZo6",
+   "vid": "LzTTtwrzw8Q",
+   "deleted": false,
+   "posted": "2026-11-27 15:07",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "기타",
+   "target": "멤버",
+   "theme": "리브 말실수 논란",
+   "artist": "리센느",
+   "implied": "리브가 '뒤진다'라고 말한 게 맞고 말이 너무하다",
+   "reason": "리브가 막말을 했다는 해석을 기정사실처럼 주장해 부정적 서사를 확산하는 것으로 보이나 사람 확인이 필요하다.",
+   "text": "니네가 억빠하는거 같은데.. 누가봐도 뒤진다라고 하는데?\n쥑인다라고 했으면 뒤에서 저렇게 속닥 거리지 않았을거같은데.. 저건 뒤진다가 맞자늠..너무하긴하네",
+   "video": "라방 중 필터 없이 나온 리브 말실수ㅋㅋ #리센느 #원이 #리브 #미나미 #메이 #제나 #프리티걸 #러브어택 #with",
+   "channel": "뮤드숏",
+   "link": "https://www.youtube.com/watch?v=LzTTtwrzw8Q&lc=Ugw4kls_A3uCycYYE754AaABAg.AdggulIu8vxAdhVnBWPZo6"
+  },
+  {
+   "id": "UgymXybp4DfFv1D1fBt4AaABAg",
+   "vid": "cyNx0dwnGgY",
+   "deleted": false,
+   "posted": "2026-11-27 15:03",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "기타",
+   "target": "그룹 전체",
+   "theme": "부정적 전망",
+   "artist": "리센느",
+   "implied": "리센느 멤버들은 결국 뿔뿔이 흩어지게 되어 있다",
+   "reason": "회사 스토리 영상에 그룹이 해체될 운명이라는 취지의 악담·예언으로 읽히나 문맥이 불분명해 확인이 필요하다.",
+   "text": "다 흩어지게. 되 있단다.",
+   "video": "힘들었던 리센느 회사의 스토리",
+   "channel": "스타의 진심",
+   "link": "https://www.youtube.com/watch?v=cyNx0dwnGgY&lc=UgymXybp4DfFv1D1fBt4AaABAg"
+  },
+  {
+   "id": "UgzsqEEXaQPvEhIPOLB4AaABAg",
+   "vid": "rZzOwkVHpwI",
+   "deleted": false,
+   "posted": "2026-11-27 14:50",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "기타",
+   "target": "그룹 전체",
+   "theme": "활동 방식 조롱",
+   "artist": "리센느",
+   "implied": "리센느는 콘서트를 할 만큼 곡 수가 안 된다",
+   "reason": "콘서트를 열 만큼 곡이 없다고 비꼬아 그룹을 깎아내린다.",
+   "text": "근데 곡수가 되냐? 콘서트 할만큼",
+   "video": "\"수익보다 팬을 먼저 생각했다...\" 첫 단독 콘서트 앞두고 리센느에 찬사가 쏟아지는 이유",
+   "channel": "셀럽도감",
+   "link": "https://www.youtube.com/watch?v=rZzOwkVHpwI&lc=UgzsqEEXaQPvEhIPOLB4AaABAg"
+  },
+  {
+   "id": "UgztkhMon4x4hP9p0814AaABAg",
+   "vid": "fFFVL9bpt1M",
+   "deleted": false,
+   "posted": "2026-11-27 14:45",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "미나미 외 멤버 조롱",
+   "artist": "리센느",
+   "implied": "일본 아이돌이 앰창앰창 거리는 격이다",
+   "reason": "미나미를 일본 아이돌로 칭하며 욕설식 표현으로 조롱한다.",
+   "text": "일본아이돌이 앰ㅊㅏㅇ앰ㅊ ㅏㅇ 거리는 격ㅋㅋㅋㅋㅋ",
+   "video": "흥분한 제나 말리는 미나미 #rescene #리센느",
+   "channel": "잔채류",
+   "link": "https://www.youtube.com/watch?v=fFFVL9bpt1M&lc=UgztkhMon4x4hP9p0814AaABAg"
+  },
+  {
+   "id": "UgxwfAXg2D1rMWoojmt4AaABAg",
+   "vid": "gZo16nZwxP8",
+   "deleted": false,
+   "posted": "2026-11-27 14:41",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "활동·성적 조롱",
+   "artist": "리센느",
+   "implied": "리센느 같은 팀에 계속 투자가 들어온 것이 이해되지 않는다",
+   "reason": "신기하다는 표현으로 그룹이 투자받을 가치가 없다고 비꼰다.",
+   "text": "돈 계속 투자 받은게 제일 신기하다.",
+   "video": "리센느에 올인했던 회사 #리센느 #RESCENE",
+   "channel": "핫큐",
+   "link": "https://www.youtube.com/watch?v=gZo16nZwxP8&lc=UgxwfAXg2D1rMWoojmt4AaABAg"
+  },
+  {
+   "id": "Ugy9yQLrJppOuMqJh5Z4AaABAg",
+   "vid": "jrkmBl-c9wY",
+   "deleted": false,
+   "posted": "2026-11-27 14:39",
+   "found": "2026-11-27 15:24",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "욕설/모욕",
+   "target": "팬덤",
+   "theme": "팬덤 비하",
+   "artist": "리센느",
+   "implied": "티켓값 논쟁에 끼어든 사람들(팬 또는 반응자)은 개돼지다",
+   "reason": "단콘 가격 반응 영상에서 '개돼지'라고 모욕해 팬덤을 비하하는 것으로 보이나 대상이 모호해 확인이 필요하다.",
+   "text": "개돼지들ㅋㅋㅋㅋ",
+   "video": "첫 단콘 가격 뜨자마자 반응 둘로 갈린 리센느",
+   "channel": "케이팝콘",
+   "link": "https://www.youtube.com/watch?v=jrkmBl-c9wY&lc=Ugy9yQLrJppOuMqJh5Z4AaABAg"
   },
   {
    "id": "UgwoWHKbai-VQnEtQKF4AaABAg",
