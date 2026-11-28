@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-11-28 12:17",
+ "updated_at": "2026-11-28 13:55",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 1631,
- "comments_collected": 57529,
- "comments_checked": 57529,
+ "videos_tracked": 1660,
+ "comments_collected": 57826,
+ "comments_checked": 57826,
  "videos_flagged": [
   {
    "video_id": "5vLH80ezzNE",
@@ -831,13 +831,13 @@
   },
   {
    "theme": "노래 실력 부족",
-   "count": 68,
+   "count": 69,
    "indirect": 30
   },
   {
    "theme": "활동 방식 조롱",
-   "count": 62,
-   "indirect": 52
+   "count": 64,
+   "indirect": 54
   },
   {
    "theme": "부정적 전망",
@@ -861,7 +861,7 @@
   },
   {
    "theme": "원이 조롱",
-   "count": 39,
+   "count": 40,
    "indirect": 20
   }
  ],
@@ -873,7 +873,7 @@
   },
   {
    "theme": "노래 실력 부족",
-   "count": 137,
+   "count": 138,
    "indirect": 55
   },
   {
@@ -893,8 +893,8 @@
   },
   {
    "theme": "활동 방식 조롱",
-   "count": 83,
-   "indirect": 67
+   "count": 85,
+   "indirect": 69
   },
   {
    "theme": "원이 춤 실력",
@@ -1247,6 +1247,46 @@
    "video": "일간 1위를 하지 못하고 있다는 리센느 With",
    "channel": "돌바라기",
    "link": "https://www.youtube.com/watch?v=o9uosX58qGk&lc=UgxwAEHXGgaPE6wiHgF4AaABAg"
+  },
+  {
+   "id": "Ugwum9yBkn3JHabQWEx4AaABAg",
+   "vid": "8yIg0uIOsv4",
+   "deleted": false,
+   "posted": "2026-11-28 13:42",
+   "found": "2026-11-28 13:55",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "외모비하",
+   "target": "멤버",
+   "theme": "원이 외모",
+   "artist": "원이",
+   "implied": "원이는 못생겼는데 한국 사람들은 눈이 낮아서 예쁘다고 한다",
+   "reason": "한국인 눈이 낮다는 말로 원이의 외모가 별로라고 단정해 비하함",
+   "text": "확실히 대한민국 사람들은 확실히 눈이 낮아 \n얼마나 저것보다 못난 사람들이 많은거야 당체 한국인들 눈을 이해 할수 없음",
+   "video": "도가니탕 먹다가 화장이 무너지는 원이",
+   "channel": "꾸센느",
+   "link": "https://www.youtube.com/watch?v=8yIg0uIOsv4&lc=Ugwum9yBkn3JHabQWEx4AaABAg"
+  },
+  {
+   "id": "UgzJZ5-8VO8-BxOZVld4AaABAg.AdjjKyn44VQAdjmG2OZjpt",
+   "vid": "KnoeznGA_Nw",
+   "deleted": false,
+   "posted": "2026-11-28 12:18",
+   "found": "2026-11-28 13:55",
+   "confidence": "확실",
+   "severity": 2,
+   "kind": "직접 비하",
+   "category": "실력비하",
+   "target": "멤버",
+   "theme": "노래 실력 부족",
+   "artist": "리센느",
+   "implied": "제나(또는 리센느 멤버들)는 노래도 춤도 못하니 유튜브나 하라",
+   "reason": "제나를 눈에 띈다고 한 부모 댓글에 달린 답글로, 노래와 춤 실력을 단정해 비하하고 그만두라는 식으로 조롱한다.",
+   "text": "노래도 못해\n\n춤도 못추고...유튜브나 해야지",
+   "video": "리센느 다섯 명 신남 비교, 같은 안무인데 #리센느 #RESCENE",
+   "channel": "어쩐지 아이돌",
+   "link": "https://www.youtube.com/watch?v=KnoeznGA_Nw&lc=UgzJZ5-8VO8-BxOZVld4AaABAg.AdjjKyn44VQAdjmG2OZjpt"
   },
   {
    "id": "UgyPNnRxC5Cy06lwEo14AaABAg",
@@ -3551,7 +3591,7 @@
   {
    "id": "Ugwmwj0iiYfkWEKUKkN4AaABAg",
    "vid": "NVSFP09LsQw",
-   "deleted": false,
+   "deleted": true,
    "posted": "2026-11-26 15:55",
    "found": "2026-11-26 20:37",
    "confidence": "확실",
@@ -5289,46 +5329,6 @@
    "link": "https://www.youtube.com/watch?v=X-snr-HSzAk&lc=Ugz2XMPnb72-sygpJNd4AaABAg"
   },
   {
-   "id": "UgytGDSxkpTI7GIbAC54AaABAg.AdaeROkfG_xAdaxpWccyOt",
-   "vid": "IXl6fTemDuA",
-   "deleted": true,
-   "posted": "2026-11-25 02:06",
-   "found": "2026-11-25 06:29",
-   "confidence": "확실",
-   "severity": 2,
-   "kind": "돌려까기",
-   "category": "팬덤비하",
-   "target": "팬덤",
-   "theme": "팬덤 비하",
-   "artist": "리센느",
-   "implied": "리센느 팬덤은 일베 같고 원이를 라이브 신이라며 과대 포장한다",
-   "reason": "일베 반자이 등으로 팬덤을 일베에 빗대고 원이 라이브를 비꼬는 조롱.",
-   "text": "@(계정) 일베나 팸코로 오세용 ㅋㅋ원이는 라이브 신이랑께 ㅋㅋ우덜 슨상님보다 위랑께 ㅋㅋ일베 반자이 ㅅㅅ",
-   "video": "리센느가 말아주는 언니즈 체포하겠어, 멜론 STAGE 99 챌린지 #리센느 #RESCENE #체포하겠어 #원이 #리브 #미나미 #Shorts",
-   "channel": "enterpocket",
-   "link": "https://www.youtube.com/watch?v=IXl6fTemDuA&lc=UgytGDSxkpTI7GIbAC54AaABAg.AdaeROkfG_xAdaxpWccyOt"
-  },
-  {
-   "id": "UgytGDSxkpTI7GIbAC54AaABAg.AdaeROkfG_xAdawLvaX2yB",
-   "vid": "IXl6fTemDuA",
-   "deleted": true,
-   "posted": "2026-11-25 01:53",
-   "found": "2026-11-25 06:29",
-   "confidence": "확실",
-   "severity": 2,
-   "kind": "직접 비하",
-   "category": "실력비하",
-   "target": "멤버",
-   "theme": "원이 춤 실력",
-   "artist": "리센느",
-   "implied": "원이는 춤도 틀리면서 라이브도 못 한다",
-   "reason": "원이를 칭찬하는 댓글에 춤이 틀렸다며 라이브를 해보라고 비꼬아 실력을 깎아내림.",
-   "text": "즈그춤은 다틀리고 ㅋㅋ라이브해보라캐봐 ㅋㅋ",
-   "video": "리센느가 말아주는 언니즈 체포하겠어, 멜론 STAGE 99 챌린지 #리센느 #RESCENE #체포하겠어 #원이 #리브 #미나미 #Shorts",
-   "channel": "enterpocket",
-   "link": "https://www.youtube.com/watch?v=IXl6fTemDuA&lc=UgytGDSxkpTI7GIbAC54AaABAg.AdaeROkfG_xAdawLvaX2yB"
-  },
-  {
    "id": "Ugw-u4UGNi2ewZCghA54AaABAg",
    "vid": "mXpOMF4a6UM",
    "deleted": false,
@@ -5847,26 +5847,6 @@
    "video": "'활동 종료' 리센느, 음악방송 출연 없이 1위 / YTN star",
    "channel": "YTN star",
    "link": "https://www.youtube.com/watch?v=fYm3bmZ9fdg&lc=UgyR_R4XZPkB1sOBLN54AaABAg"
-  },
-  {
-   "id": "UgykqKWaGD5GqT2S9tp4AaABAg",
-   "vid": "j2kHSnBxP_4",
-   "deleted": true,
-   "posted": "2026-11-24 16:16",
-   "found": "2026-11-24 21:01",
-   "confidence": "확실",
-   "severity": 2,
-   "kind": "직접 비하",
-   "category": "실력비하",
-   "target": "멤버",
-   "theme": "원이 보컬",
-   "artist": "원이",
-   "implied": "원이는 노래를 못해서 콘서트에서 AR 틀고 립싱크한다",
-   "reason": "원이가 노래를 못하고 립싱크한다고 단정해 실력을 깎아내린다.",
-   "text": "원이는 콘서트 할거면 노래연습하자 AR틀고 립싱크하지말고",
-   "video": "전쟁 준비가 시작됐다는 리센느 최신 근황",
-   "channel": "미녀협회",
-   "link": "https://www.youtube.com/watch?v=j2kHSnBxP_4&lc=UgykqKWaGD5GqT2S9tp4AaABAg"
   },
   {
    "id": "UgwPTQ8R5Da6ldHoEKl4AaABAg",
@@ -14729,26 +14709,6 @@
    "link": "https://www.youtube.com/watch?v=_MJMaMWRKNQ&lc=UgzQYCPLjwVZB8F3oI94AaABAg"
   },
   {
-   "id": "UgykqKWaGD5GqT2S9tp4AaABAg.Ad_uIbqPI5zAda5tvBArzw",
-   "vid": "j2kHSnBxP_4",
-   "deleted": true,
-   "posted": "2026-11-24 18:06",
-   "found": "2026-11-24 21:01",
-   "confidence": "의심",
-   "severity": 2,
-   "kind": "돌려까기",
-   "category": "실력비하",
-   "target": "멤버",
-   "theme": "원이 보컬",
-   "artist": "리센느",
-   "implied": "원이는 노래를 못하니 다른 사람에게 배워야 한다",
-   "reason": "원이가 립싱크하고 노래 연습이 필요하다는 악성 부모 댓글에 호응해 보컬 실력 부족 서사를 이어간다.",
-   "text": "ㄴㄱㅁ한테 좀 가르쳐달라고 하면 안됨?",
-   "video": "전쟁 준비가 시작됐다는 리센느 최신 근황",
-   "channel": "미녀협회",
-   "link": "https://www.youtube.com/watch?v=j2kHSnBxP_4&lc=UgykqKWaGD5GqT2S9tp4AaABAg.Ad_uIbqPI5zAda5tvBArzw"
-  },
-  {
    "id": "UgyanAeaC97UmbXgeFR4AaABAg",
    "vid": "fYm3bmZ9fdg",
    "deleted": false,
@@ -16327,6 +16287,86 @@
    "video": "일간 1위를 하지 못하고 있다는 리센느 With",
    "channel": "돌바라기",
    "link": "https://www.youtube.com/watch?v=o9uosX58qGk&lc=UgxDoPyr2FRUNYjifsF4AaABAg"
+  },
+  {
+   "id": "UgxiU4c209hsGPyGBDh4AaABAg.AdjpxQGO5PBAdjweR6LBxk",
+   "vid": "PGh7yNFR5vw",
+   "deleted": false,
+   "posted": "2026-11-28 13:49",
+   "found": "2026-11-28 13:55",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "활동 방식 조롱",
+   "artist": "리센느",
+   "implied": "도가니탕을 먹는 멤버들을 폐경기 여성에 빗대 나이 든 사람처럼 조롱한다",
+   "reason": "도가니탕 먹방을 폐경에 빗대 조롱하는 뉘앙스가 있으나 말장난일 수 있어 사람 확인이 필요함",
+   "text": "폐경이 아니라 완경",
+   "video": "다음은 도가니탕이다#리센느",
+   "channel": "캡로그",
+   "link": "https://www.youtube.com/watch?v=PGh7yNFR5vw&lc=UgxiU4c209hsGPyGBDh4AaABAg.AdjpxQGO5PBAdjweR6LBxk"
+  },
+  {
+   "id": "Ugy4BrCe-LGZQ_-fTQZ4AaABAg",
+   "vid": "8yIg0uIOsv4",
+   "deleted": false,
+   "posted": "2026-11-28 13:35",
+   "found": "2026-11-28 13:55",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "실력비하",
+   "target": "멤버",
+   "theme": "원이 보컬/실력",
+   "artist": "원이",
+   "implied": "원이는 연습이 부족하니 연습이나 해라",
+   "reason": "먹방 영상에 대고 연습이나 하라며 실력과 태도가 부족하다는 인상을 남긴다.",
+   "text": "연습이나해라 원이야",
+   "video": "도가니탕 먹다가 화장이 무너지는 원이",
+   "channel": "꾸센느",
+   "link": "https://www.youtube.com/watch?v=8yIg0uIOsv4&lc=Ugy4BrCe-LGZQ_-fTQZ4AaABAg"
+  },
+  {
+   "id": "UgytXLSIYL2UBaIfyMx4AaABAg",
+   "vid": "8yIg0uIOsv4",
+   "deleted": false,
+   "posted": "2026-11-28 13:31",
+   "found": "2026-11-28 13:55",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "활동 방식 조롱",
+   "artist": "원이",
+   "implied": "원이가 연습은 안 하고 먹방만 해서 유튜버로 전향하려는 것 같다",
+   "reason": "연습 부족과 본업 소홀 프레임을 씌워 비꼰다.",
+   "text": "춤연습안하고 먹방하네.. 유튜버로 전향하는거니",
+   "video": "도가니탕 먹다가 화장이 무너지는 원이",
+   "channel": "꾸센느",
+   "link": "https://www.youtube.com/watch?v=8yIg0uIOsv4&lc=UgytXLSIYL2UBaIfyMx4AaABAg"
+  },
+  {
+   "id": "Ugw8-0Tl8HJq96VqESx4AaABAg",
+   "vid": "8yIg0uIOsv4",
+   "deleted": false,
+   "posted": "2026-11-28 13:14",
+   "found": "2026-11-28 13:55",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "직접 비하",
+   "category": "인신공격/조롱",
+   "target": "멤버",
+   "theme": "원이 조롱",
+   "artist": "원이",
+   "implied": "원이는 자기객관화가 안 된다",
+   "reason": "원이가 자기객관화를 못 한다고 단정하며 깎아내린다.",
+   "text": "원이가 자기객관화가 아직 안돼있어\n백룸보고 기분 찝찝했는데 원이 라방보고 기분좋게잠 ㅋㅋ",
+   "video": "도가니탕 먹다가 화장이 무너지는 원이",
+   "channel": "꾸센느",
+   "link": "https://www.youtube.com/watch?v=8yIg0uIOsv4&lc=Ugw8-0Tl8HJq96VqESx4AaABAg"
   },
   {
    "id": "UgwA9I4pjXJ9WIRBOzB4AaABAg",
@@ -29729,26 +29769,6 @@
    "link": "https://www.youtube.com/watch?v=W-Pc5un3Cc4&lc=Ugz8H1VoAHbYlbzNdrZ4AaABAg"
   },
   {
-   "id": "Ugxv23nT0ckDnctSmo14AaABAg",
-   "vid": "IXl6fTemDuA",
-   "deleted": true,
-   "posted": "2026-11-25 06:50",
-   "found": "2026-11-25 09:06",
-   "confidence": "의심",
-   "severity": 1,
-   "kind": "돌려까기",
-   "category": "돌려까기",
-   "target": "멤버",
-   "theme": "원이 춤 실력",
-   "artist": "원이",
-   "implied": "원이는 예쁘지만 춤 실력은 별로다",
-   "reason": "외모 칭찬 뒤에 '댄스는 뭔가'로 춤 실력 약점을 깔았으나 수위가 약해 확인이 필요함.",
-   "text": "원이가 젤 이쁜데 댄스는 뭔가 ㅡㅡ",
-   "video": "리센느가 말아주는 언니즈 체포하겠어, 멜론 STAGE 99 챌린지 #리센느 #RESCENE #체포하겠어 #원이 #리브 #미나미 #Shorts",
-   "channel": "enterpocket",
-   "link": "https://www.youtube.com/watch?v=IXl6fTemDuA&lc=Ugxv23nT0ckDnctSmo14AaABAg"
-  },
-  {
    "id": "Ugwa6-TC4uYQfOeYczZ4AaABAg",
    "vid": "t_FO4s0AY8E",
    "deleted": false,
@@ -31447,26 +31467,6 @@
    "video": "유독 사람냄새가 물씬 났던 리센느 원이 #원이 #미나미 #리센느 #rescene #안원잘부",
    "channel": "IDOLCATCHUP",
    "link": "https://www.youtube.com/watch?v=VSjHoN62q1s&lc=UgzPBlBPkkYy7zyT6UV4AaABAg"
-  },
-  {
-   "id": "UgwAhq0FYX2XLdHIfiR4AaABAg.Ad_c7AoeF3PAdaMrf9y0Wg",
-   "vid": "5oBOm6VL6V8",
-   "deleted": true,
-   "posted": "2026-11-24 20:34",
-   "found": "2026-11-24 21:01",
-   "confidence": "의심",
-   "severity": 1,
-   "kind": "돌려까기",
-   "category": "성희롱",
-   "target": "멤버",
-   "theme": "신체 성적 대상화",
-   "artist": "리센느",
-   "implied": "일본 출신 미나미를 혼탕과 연결해 성적으로 암시한다",
-   "reason": "목욕탕 영상에서 혼탕 언급으로 성적 연상을 유도하는 의심 댓글.",
-   "text": "일본은 혼탕이라....",
-   "video": "미나미 한국 목욕탕 가봤어? #리센느",
-   "channel": "리센느상사",
-   "link": "https://www.youtube.com/watch?v=5oBOm6VL6V8&lc=UgwAhq0FYX2XLdHIfiR4AaABAg.Ad_c7AoeF3PAdaMrf9y0Wg"
   },
   {
    "id": "UgxI_iIEj1CAA32v-pR4AaABAg",
