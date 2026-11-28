@@ -1,11 +1,55 @@
 {
- "updated_at": "2026-11-28 20:37",
+ "updated_at": "2026-11-28 20:57",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 1708,
- "comments_collected": 61393,
- "comments_checked": 61393,
+ "videos_tracked": 1728,
+ "comments_collected": 61753,
+ "comments_checked": 61753,
  "videos_flagged": [
+  {
+   "video_id": "7Ft-TOzSJQc",
+   "title": "리브는 진짜 여자들의 악마 아니 천사 #리센느 #리브 #원이 #제나 #메이 #미나미",
+   "channel": "리센느모음",
+   "toxic": 5,
+   "total": 41,
+   "ratio": 0.122,
+   "submitted": false,
+   "last": "2026-11-28 20:57",
+   "link": "https://www.youtube.com/watch?v=7Ft-TOzSJQc"
+  },
+  {
+   "video_id": "AhRG0gpqxY8",
+   "title": "💡일본 연예계 반성시킨 \"리센느\" 리센느 무대 본 일본 기획사들 반성, 일본 아이들이 한국행 비행기 타는 이유 | 해외반응 🌏",
+   "channel": "외국이 놀란 한국",
+   "toxic": 7,
+   "total": 57,
+   "ratio": 0.1228,
+   "submitted": false,
+   "last": "2026-11-28 20:57",
+   "link": "https://www.youtube.com/watch?v=AhRG0gpqxY8"
+  },
+  {
+   "video_id": "SnPfoEBmlro",
+   "title": "리센느가 돌아있다면 항상 센터는 리브다",
+   "channel": "커피우유1505",
+   "toxic": 9,
+   "total": 121,
+   "ratio": 0.0744,
+   "submitted": false,
+   "last": "2026-11-28 20:57",
+   "link": "https://www.youtube.com/watch?v=SnPfoEBmlro"
+  },
+  {
+   "video_id": "hjAoZHzYOBw",
+   "title": "리센느, 돌아온 흐름 1위!! #리센느 #정국 #트리플에스",
+   "channel": "케이팝 트렌드 KPOP Trend",
+   "toxic": 4,
+   "total": 36,
+   "ratio": 0.1111,
+   "submitted": false,
+   "last": "2026-11-28 20:57",
+   "link": "https://www.youtube.com/watch?v=hjAoZHzYOBw"
+  },
   {
    "video_id": "3IxXojSVcJk",
    "title": "멜론뮤직어워드 리센느 에스파 MMA RESCENE AESPA /26.11.14/",
@@ -27,17 +71,6 @@
    "submitted": false,
    "last": "2026-11-28 20:37",
    "link": "https://www.youtube.com/watch?v=6lm8cb1s76U"
-  },
-  {
-   "video_id": "7Ft-TOzSJQc",
-   "title": "리브는 진짜 여자들의 악마 아니 천사 #리센느 #리브 #원이 #제나 #메이 #미나미",
-   "channel": "리센느모음",
-   "toxic": 5,
-   "total": 40,
-   "ratio": 0.125,
-   "submitted": false,
-   "last": "2026-11-28 20:37",
-   "link": "https://www.youtube.com/watch?v=7Ft-TOzSJQc"
   },
   {
    "video_id": "7GDwukKWzv4",
@@ -106,17 +139,6 @@
    "link": "https://www.youtube.com/watch?v=A5vjepDsKrU"
   },
   {
-   "video_id": "AhRG0gpqxY8",
-   "title": "💡일본 연예계 반성시킨 \"리센느\" 리센느 무대 본 일본 기획사들 반성, 일본 아이들이 한국행 비행기 타는 이유 | 해외반응 🌏",
-   "channel": "외국이 놀란 한국",
-   "toxic": 7,
-   "total": 56,
-   "ratio": 0.125,
-   "submitted": false,
-   "last": "2026-11-28 20:37",
-   "link": "https://www.youtube.com/watch?v=AhRG0gpqxY8"
-  },
-  {
    "video_id": "B7meUZ-pL_s",
    "title": "MBC 연예대상 MC발탁 미나미 #리센느 #RESCENE",
    "channel": "센느콩",
@@ -126,17 +148,6 @@
    "submitted": false,
    "last": "2026-11-28 20:37",
    "link": "https://www.youtube.com/watch?v=B7meUZ-pL_s"
-  },
-  {
-   "video_id": "CI_qwAixG_Q",
-   "title": "리브와 메이의 차이 #리센느",
-   "channel": "갸루 야호~",
-   "toxic": 3,
-   "total": 60,
-   "ratio": 0.05,
-   "submitted": false,
-   "last": "2026-11-28 20:37",
-   "link": "https://www.youtube.com/watch?v=CI_qwAixG_Q"
   },
   {
    "video_id": "DSpZNwMQrfI",
@@ -225,17 +236,6 @@
    "submitted": false,
    "last": "2026-11-28 20:37",
    "link": "https://www.youtube.com/watch?v=Rwn5lnry_i0"
-  },
-  {
-   "video_id": "SnPfoEBmlro",
-   "title": "리센느가 돌아있다면 항상 센터는 리브다",
-   "channel": "커피우유1505",
-   "toxic": 9,
-   "total": 120,
-   "ratio": 0.075,
-   "submitted": false,
-   "last": "2026-11-28 20:37",
-   "link": "https://www.youtube.com/watch?v=SnPfoEBmlro"
   },
   {
    "video_id": "VKeYFDpX6xM",
@@ -412,17 +412,6 @@
    "submitted": false,
    "last": "2026-11-28 20:37",
    "link": "https://www.youtube.com/watch?v=eypS7QvREnw"
-  },
-  {
-   "video_id": "hjAoZHzYOBw",
-   "title": "리센느, 돌아온 흐름 1위!! #리센느 #정국 #트리플에스",
-   "channel": "케이팝 트렌드 KPOP Trend",
-   "toxic": 4,
-   "total": 35,
-   "ratio": 0.1143,
-   "submitted": false,
-   "last": "2026-11-28 20:37",
-   "link": "https://www.youtube.com/watch?v=hjAoZHzYOBw"
   },
   {
    "video_id": "jOuwA-ogec8",
@@ -874,8 +863,8 @@
   },
   {
    "theme": "부정적 전망",
-   "count": 56,
-   "indirect": 42
+   "count": 57,
+   "indirect": 43
   },
   {
    "theme": "라이브 논란",
@@ -936,8 +925,8 @@
   },
   {
    "theme": "부정적 전망",
-   "count": 84,
-   "indirect": 67
+   "count": 85,
+   "indirect": 68
   },
   {
    "theme": "성적 조작 의혹",
@@ -16960,6 +16949,26 @@
    "video": "리센느 'WITH' 레코딩 영상 반주 입힌 버전 1 #리센느 #rescene",
    "channel": "RE:센느컷",
    "link": "https://www.youtube.com/watch?v=bh1NORtEb64&lc=UgwVjCV9e9sBCOU-QM14AaABAg"
+  },
+  {
+   "id": "UgySYyirY59l8l320pB4AaABAg",
+   "vid": "BgRr_rFhXP0",
+   "deleted": false,
+   "posted": "2026-11-28 20:20",
+   "found": "2026-11-28 20:57",
+   "confidence": "의심",
+   "severity": 1,
+   "kind": "돌려까기",
+   "category": "인신공격/조롱",
+   "target": "그룹 전체",
+   "theme": "부정적 전망",
+   "artist": "리센느",
+   "implied": "리센느도 결국 힘 빠진 그룹처럼 몰락할 것이다",
+   "reason": "다른 그룹의 쇠락 사례에 빗대어 리센느의 몰락을 조롱조로 예언함.",
+   "text": "나중에 프나 송하영처럼 이빨빠진 호랑이 되는거 아니냐 ㅋㅋㅋ",
+   "video": "현재 잃어버린거 같다는 리센느 원이",
+   "channel": "보리차",
+   "link": "https://www.youtube.com/watch?v=BgRr_rFhXP0&lc=UgySYyirY59l8l320pB4AaABAg"
   },
   {
    "id": "UgwejRVgKuKzLEEVsJF4AaABAg.Adk6zL5u8wNAdkb7cxnIfZ",
