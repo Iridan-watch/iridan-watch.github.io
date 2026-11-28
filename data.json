@@ -1,10 +1,10 @@
 {
- "updated_at": "2026-11-28 13:55",
+ "updated_at": "2026-11-28 15:24",
  "since": "2026-11-22",
  "api": "https://iridan-watch-api.dstorage-dev.workers.dev",
- "videos_tracked": 1660,
- "comments_collected": 57826,
- "comments_checked": 57826,
+ "videos_tracked": 1671,
+ "comments_collected": 57827,
+ "comments_checked": 57827,
  "videos_flagged": [
   {
    "video_id": "5vLH80ezzNE",
@@ -806,8 +806,8 @@
  "themes_7d": [
   {
    "theme": "팬덤 비하",
-   "count": 171,
-   "indirect": 89
+   "count": 167,
+   "indirect": 86
   },
   {
    "theme": "외모 조롱",
@@ -28967,26 +28967,6 @@
    "video": "리센느 막내즈가 룩스캔킬을 추면 ㄷㄷ",
    "channel": "셀럽볼꼬양",
    "link": "https://www.youtube.com/watch?v=Nc-ptwQB3Zw&lc=UgxxcUt8ub3Aw8714HB4AaABAg"
-  },
-  {
-   "id": "Ugyaf0XgXrwuDZYE7pZ4AaABAg",
-   "vid": "3IxXojSVcJk",
-   "deleted": true,
-   "posted": "2026-11-25 12:14",
-   "found": "2026-11-25 12:41",
-   "confidence": "의심",
-   "severity": 1,
-   "kind": "돌려까기",
-   "category": "돌려까기",
-   "target": "그룹 전체",
-   "theme": "태도 비하",
-   "artist": "리센느",
-   "implied": "리센느가 에스파를 째려봤다는 암시로 태도가 나쁘다고 본다",
-   "reason": "질문 형식으로 멤버들이 째려봤다는 태도 논란 프레임을 만들지만, 어느 쪽이 째려봤는지 불분명해 확인이 필요하다.",
-   "text": "아이돌들끼리 본래 저렇게 안하고 째려봄?",
-   "video": "멜론뮤직어워드 리센느 에스파 MMA RESCENE AESPA /26.11.14/",
-   "channel": "LuvBe",
-   "link": "https://www.youtube.com/watch?v=3IxXojSVcJk&lc=Ugyaf0XgXrwuDZYE7pZ4AaABAg"
   },
   {
    "id": "Ugx4ic_r7qrAQqda4WN4AaABAg",
